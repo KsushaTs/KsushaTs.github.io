@@ -1,0 +1,859 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+
+  <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400;700&family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+
+  <link rel="shortcut icon" href="favicon.png" type="image/png">
+
+  <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body>
+  <div class="wrapper">
+    <header class="header">
+      <div class="container">
+        <div class="header__content">
+          <div class="logo header__logo logo_header">
+            <a class="logo__link" href="/">
+              <span class="logo__text1 logo__text1_header">
+                Extra
+              </span>
+              <span class="logo__text2">
+                mind
+              </span>
+            </a>
+          </div>
+          <div class="burger header__burger">
+            <div class="burger__line burger__line_1"></div>
+            <div class="burger__line burger__line_2"></div>
+            <div class="burger__line burger__line_3"></div>
+            <div class="burger__line burger__line_4"></div>
+          </div>
+          <nav class="header__nav navJs">
+            <ul class="header__menu menu ">
+              <li class="menu__item">
+                <a href="#main" class="menu__link active">Главная</a>
+              </li>
+              <li class="menu__item">
+                <a href="#effect" class="menu__link">Эффект</a>
+              </li>
+              <li class="menu__item">
+                <a href="#action" class="menu__link">Действие</a>
+              </li>
+              <li class="menu__item">
+                <a href="#reviews" class="menu__link">Отзывы</a>
+              </li>
+            </ul>
+          </nav>
+    
+          <a href="" class="button header__button button_s buttonToForm">
+            Заказать
+          </a>
+        </div>
+      </div>
+    </header>
+    
+    <div class="nav-mob navMobJs">
+      <div class="container">
+        <div class="nav-mob__content">
+          <nav class="nav-mob__nav ">
+            <ul class="nav-mob__menu menu-mob">
+              <li class="menu-mob__item">
+                <a href="#main" class="menu-mob__link active">Главная</a>
+              </li>
+              <li class="menu-mob__item">
+                <a href="#effect" class="menu-mob__link">Эффект</a>
+              </li>
+              <li class="menu-mob__item">
+                <a href="#action" class="menu-mob__link">Действие</a>
+              </li>
+              <li class="menu-mob__item">
+                <a href="#reviews" class="menu-mob__link">Отзывы</a>
+              </li>
+            </ul>
+          </nav>
+          <a href="" class="button nav-mob__button buttonToForm">
+            Заказать
+          </a>
+        </div>
+      </div>
+    
+    </div>
+    
+  <section id="main" class="tb tb_top top visibleSection">
+      <div class="hurryup top__hurryup hurryup_absolute" data-statehu="true">
+          <div class="container">
+              <div class="hurryup__content">
+                  <div class="hurryup__sign sign">
+                      <div class="excl">
+                          <i>!</i>
+                      </div>
+                  </div>
+                  <div class="hurryup__text">
+                      <strong>
+                          Поторопись!
+                      </strong>
+                      <p>
+                          Количество упаковок по сниженной цене ограничено
+                      </p>
+                  </div>
+                  <div class="hurryup__counter js-countdown">
+                      <span class="js-count-digit">0</span>
+                      <span class="js-count-digit">0</span>
+                      <span class="js-count-digit">0</span>
+                  </div>
+                  <div class="hurryup__close close">
+  
+                  </div>
+              </div>
+          </div>
+      </div>
+  
+      <div class="hurryup-mob">
+          <div class="container">
+              <div class="hurryup-mob__content">
+                  <p class="hurryup-mob__text">
+                      Поторопись! Количество упаковок <br>
+                      по сниженной цене ограничено
+                  </p>
+                  <div class="hurryup-mob__counter js-countdown">
+                      <span class="js-count-digit">0</span>
+                      <span class="js-count-digit">0</span>
+                      <span class="js-count-digit">0</span>
+                  </div>
+              </div>
+          </div>
+      </div>
+      <div class="container">
+          <div class="tb__content top__content">
+              <div class="tb__img top__img">
+                 
+                  <div class="top__arrow arrow">
+                      <img class="arrow__shadow" src="img/arrow-tb-shadow.png" alt="">
+                      <img class="arrow__img" src="img/arrow-tb.png" alt="">
+                  </div>
+              </div>
+              <div class="tb__product top__product">
+                  <img src="img/product.png" srcset="img/product@2x.png 2x" alt="">
+              </div>
+              <div class="tb__block top__block">
+                  <div class="tb__text top__text">
+                      <h2 class="tb__title top__title text-color-black">
+                          Активатор мозга,
+                      </h2>
+                      <h3 class="tb__subtitle top__subtitle subtitle">
+                          который превратит тебя в гения
+                      </h3>
+                      <ul class="tb__list list list_tb">
+                          <li class="list__item">
+                              Соображай быстро
+                          </li>
+                          <li class="list__item">
+                              Действуй решительно
+                          </li>
+                          <li class="list__item">
+                              Достигай вершин
+                          </li>
+                      </ul>
+                  </div>
+                  <div class="tb__form-block top__form-block form-block">
+  
+                          <div class="form-block__title">
+                              <div class="price">
+                                  <div class="price__old">
+                                      <span class="value">78</span>
+                                      <span class="currency">&euro;</span>
+                                  </div>
+                                  <div class="price__new">
+                                      <span class="value">39</span>
+                                      <span class="currency">&euro;</span>
+                                  </div>
+                              </div>
+                              <div class="form-block__text">
+                                  ЗАПОЛНИ ФОРМУ, И МЫ С ТОБОЙ СВЯЖЕМСЯ
+                              </div>
+                          </div>
+                          <div class="form-block__main">
+                              <form id="form1" action="" class="form">
+                                  <div class="form__input-wrap input-wrapper">
+                                      <input id="name1" class="form__input" type="text" name="name" placeholder="Имя">
+                                      <label for="name1">Введите ваше имя</label>
+                                  </div>
+                                  <div class="form__input-wrap input-wrapper">
+                                      <input id="phone1" class="form__input" type="text" name="phone" placeholder="Телефон">
+                                      <label for="phone1">Введите ваш телефон</label>
+                                  </div>
+      
+                                  <div class="form__checkbox-wrap">
+                                      <label class="form__checkbox-label checkbox-container">
+                                          <input class="form__checkbox" type="checkbox" name="" checked>
+                                          <span class="checkmark"></span>
+                                          Я согласен на обработку <br> персональных данных
+                                      </label>
+                                  </div>
+      
+                                  <button class="form__button button button_b" type="submit">
+                                      Заказать
+                                  </button>
+                              </form>
+                              <div class="secure">
+                                  <img class="secure__img" src="img/norton.svg" alt="">
+                                  <img class="secure__img" src="img/mcafee.svg" alt="">
+                              </div>
+                          </div>
+                    
+                  </div>
+              </div>
+          </div>
+      </div>
+      <div class="floating-button top__floating-button">
+          <div class="container">
+              <div class="floating-button__content">
+                  <a href="" class="floating-button__button button button_b buttonToForm">
+                      <span class="discount">-50%</span> Хочу!
+                  </a>
+              </div>
+          </div>
+      </div>
+  
+  </section>
+  <section class="section1">
+      <div class="container">
+          <div class="section1__content">
+              <div class="section1__img">
+                  <img src="img/Brain.png" alt="">
+              </div>
+              <div class="section1__text">
+                  <p class="text text_s">
+                      Обычно мы
+                  </p>
+                  <p class="title text-color-orange">
+                      задействуем мозг
+                  </p>
+                  <p>
+                      <span class="text text_s">
+                          максимум
+                      </span>
+  
+                      <span class="section1__title2 title text-color-orange">
+                          на половину
+                      </span>
+  
+                  </p>
+              </div>
+  
+              <ul class="section1__list list list_s1">
+                  <li class="list__item">
+                      Хроническая усталость
+                  </li>
+                  <li class="list__item">
+                      Невнимательность и забывчивость
+                  </li>
+                  <li class="list__item">
+                      Апатия и медлительность
+                  </li>
+                  <li class="list__item">
+                      Неспособность сконцентрироваться
+                  </li>
+  
+              </ul>
+          </div>
+      </div>
+  </section>
+  <section class="section2">
+      <div class="container">
+          <div class="section2__content">
+              <h2 class="section2__title title text-color-white">
+                  Ты способен на большее!
+              </h2>
+          </div>
+      </div>
+  </section>
+  <section id='effect' class="section3 visibleSection">
+      <div class="container">
+          <div class="section3__content">
+              <div class="section3__text">
+                  <p class="text text_b">
+                      Extra Mind
+                  </p>
+                  <p class="title text-color-orange">
+                      активизирует потенциал
+                  </p>
+                  <p class="text text_s">
+                      твоего мозга
+                  </p>
+              </div>
+  
+              <ul class="section3__list list list_s3">
+  
+                  <li class="list__item">Смекалка быстрее</li>
+                  <li class="list__item">Высказывания умнее</li>
+                  <li class="list__item">Фокусировка точнее</li>
+                  <li class="list__item">Память сильнее</li>
+                  <li class="list__item">Концентрация легче</li>
+                  <li class="list__item">Аргументация весомее</li>
+  
+              </ul>
+          </div>
+      </div>
+  </section>
+  <section class="section4">
+      <div class="container">
+          <div class="section4__content">
+  
+              <div class="section4__text">
+                  <p class="text text_s">
+                      Построй
+                  </p>
+                  <p class="title text-color-orange">
+                      успешную карьеру
+                  </p>
+                  <p class="text text_b">
+                      с Extra Mind
+                  </p>
+              </div>
+  
+              <div class="section4__blocks blocks">
+                  <div class="blocks__block block block_41">
+                      <div class="block__text text">
+                          Правильные <br> решения
+                      </div>
+                  </div>
+  
+                  <div class="blocks__block block block_42">
+                      <div class="block__text text ">
+                          Стремительное <br> развитие
+                      </div>
+                  </div>
+  
+                  <div class="blocks__block block block_43">
+                      <div class="block__text text ">
+                          Уважение <br> руководства
+                      </div>
+                  </div>
+  
+              </div>
+          </div>
+      </div>
+  </section>
+  
+  <section class="section5">
+      <img class="section5__product-bg" src="img/bg-s5-1.png" alt="">
+      <div class="container">
+          <div class="section5__content">
+              <div class="section5__img">
+                  <img src="img/bg-s5-img.png" alt="">
+              </div>
+  
+              <div class="section5__text text-color-white">
+                  <p class="text text_s">
+                      Стань
+                  </p>
+                  <p class="title">
+                      богаче и увереннее
+                  </p>
+                  <p class="text text_b">
+                      с Extra Mind
+                  </p>
+              </div>
+              <div class="section5__list">
+  
+                  <div class="section5__product">
+                      <img class="section5__product-img" src="img/product-copy.png" srcset="img/product-copy@2x.png 2x"
+                          alt="">
+                     
+                      <div class="section5__product-gradient">
+  
+                      </div>
+                  </div>
+  
+                  <ul class="section5__ordered-list ordered-list">
+  
+                      <li class="ordered-list__item">
+                          <span class="ordered-list__number">1</span>
+                          <span class="ordered-list_text">
+                              Реализованные проекты
+                          </span>
+                      </li>
+  
+                      <li class="ordered-list__item ordered-list__item_2">
+                          <span class="ordered-list__number">2</span>
+                          <span class="ordered-list_text">
+                              Авторитет среди коллег
+                          </span>
+                      </li>
+                      <li class="ordered-list__item">
+                          <span class="ordered-list__number">3</span>
+                          <span class="ordered-list_text">
+                              Безлимит возможностей
+                          </span>
+                      </li>
+  
+                  </ul>
+              </div>
+  
+  
+          </div>
+      </div>
+  
+      <div class="section5__line">
+          <img src="img/line-s5.png" alt="">
+      </div>
+  </section>
+  
+  <section class="section6">
+      <div class="container">
+          <div class="section6__content">
+              <div class="section6__text">
+  
+                  <p class="title text-color-orange">
+                      Расположи людей
+                  </p>
+                  <p class="text text_b">
+                      к себе с Extra Mind
+                  </p>
+              </div>
+  
+              <div class="section6__blocks blocks">
+                  <div class="blocks__block block block_61">
+  
+                      <div class="block__text text">
+                          Всегда в центре <br> внимания
+                      </div>
+                  </div>
+  
+                  <div class="blocks__block block block_62">
+                     
+                      <div class="block__text text">
+                          Острый ум <br> и тонкий юмор
+                      </div>
+                  </div>
+  
+                  <div class="blocks__block block block_63">
+                      <div class="block__text text">
+                          Очередь из <br> поклонников
+                      </div>
+                  </div>
+  
+              </div>
+  
+          </div>
+      </div>
+  </section>
+  <section class="section7">
+      <div class="container">
+          <div class="section7__content">
+  
+              <div  id="action" class="section7__text visibleSection">
+                  <p class="text text_s">
+                      Невидимые процессы, но
+                  </p>
+                  <p class="title text-color-white">
+                      ощутимый эффект
+                  </p>
+              </div>
+  
+              <div class="section7__video">
+                  <div class="section7__video-container visibleVideo">
+                      <video id="video" muted loop controls src="img/extraMind_desktop.mp4"></video>
+                  </div>
+  
+              </div>
+  
+          </div>
+      </div>
+  </section>
+  
+  <section class="section8">
+      <div class="section8__block1">
+          <div class="container">
+              <div class="section8__content section8__content_1">
+                  <div class="section8__text">
+  
+                      <p class="title text-color-orange">
+                          Совершен прорыв
+                      </p>
+                      <p class="section8__subtitle text text_s">
+                          в изучении функций головного мозга
+                      </p>
+                  </div>
+  
+              </div>
+          </div>
+      </div>
+  
+      <div class="section8__block2">
+          <div class="container">
+              <div class="section8__content section8__content_2">
+                  <div class="section8__img-block2">
+                      <img class="section8__img21" src="img/i81.png" alt="">
+  
+                      <img class="section8__img22" src="img/doctor-shadow.png" alt="">
+  
+                  </div>
+                  <div class="section8__img-block1">
+                      <img class="section8__img1" src="img/doctor8.png" srcset="img/doctor8@2x.png 2x" alt="">
+                  </div>
+                  <div class="section8__text2">
+                      <p>
+                          Последние десятилетия всё к тому шло. Должен был появиться препарат, расширяющий возможности
+                          человека вне любых пределов. И это Extra Mind!
+                      </p>
+                  </div>
+              </div>
+          </div>
+      </div>
+  
+      <div class="section8__block3">
+          <div class="container">
+              <div class="section8__content section8__content_3">
+                  <div class="section8__text3">
+                      <div class="section8__text2-mob">
+                          <p>
+                              Последние десятилетия всё к тому шло. Должен был появиться препарат, расширяющий возможности
+                              человека вне любых пределов. И это Extra Mind!
+                          </p>
+                      </div>
+                      <p>
+                          Благодаря уникальному сочетанию безопасных, однако сверхмощных ингредиентов, капсулы Extra Mind
+                          одновременно стимулируют четыре участка головного мозга, которые отвечают за сфокусированность,
+                          память, умственную энергию и общую производительность мозга. В итоге вы используете его
+                          потенциал не на 40-50%, как обычно, а на все 90%!
+                      </p>
+                      <p>
+                          Мои коллеги протестировали капсулы в лабораторный условиях и в ходе клинических экспериментов.
+                          Нет оснований им не доверять, поэтому я рекомендую Extra Mind своим пациентам любого возраста и
+                          рода деятельности.
+                      </p>
+                      <p class="section8__author">
+                          Рудольф Семечкин, <br>
+                          нейробиолог с 18-летним стажем
+  
+                      </p>
+                  </div>
+              </div>
+          </div>
+      </div>
+  
+  </section>
+  
+  <section id="reviews" class="section9 visibleSection">
+      <div class="container">
+          <div class="section9__content">
+  
+              <div class="section9__text">
+                  <p class="title text-color-orange">
+                      Реальные отзывы
+                  </p>
+                  <p class="text text_s">
+                      о приобретенных возможностях
+                  </p>
+              </div>
+  
+          </div>
+      </div>
+      <div class="section9__slider">
+          <div class="section9__container">
+              <div class="section9__s-slider s-slider">
+  
+                  <div class="s-slider__slide s-slide">
+                      <div class="s-slide__content">
+                          <div class="s-slide__img">
+                              <img src="img/slide1.png" alt="">
+                          </div>
+                          <div class="s-slide__author">
+                              <p class="s-slide__name">
+                                  Петр,
+                              </p>
+                              <p>
+                                  22 года студент
+                              </p>
+                          </div>
+                          <div class="s-slide__text">
+                              <p>Я задумался о покупке Extra Mind перед очередными экзаменами, потому что последние две
+                                  сессии были для меня провальными. Так вот эта штука работает! Сознание будто
+                                  расширяется, ты воспринимаешь все быстрее, решительнее, четче. Я за 40 минут сдал
+                                  экзамен, на который отличники с моего курса потратили 1,5 часа! И получил максимальную
+                                  оценку. Очень доволен капсулами. Принимал их на регулярной основе, оказалось, что они
+                                  обладают накопительным эффектом. Теперь я в числе лучших студентов колледжа.
+                              </p>
+                          </div>
+                      </div>
+                  </div>
+  
+                  <div class="s-slider__slide s-slide">
+                      <div class="s-slide__content">
+                          <div class="s-slide__img">
+                              <img src="img/slide2.png" alt="">
+                          </div>
+                          <div class="s-slide__author">
+                              <p class="s-slide__name">
+                                  Лев,
+                              </p>
+                              <p>
+                                  38 лет бренд-менеджер
+  
+                              </p>
+                          </div>
+                          <div class="s-slide__text">
+                              <p>
+                                  Начал искать активаторы мозга, потому что жена была недовольна моей карьерой и
+                                  заработком. Грозилась уйти, а я чувствовал, что не использую на работе весь свой
+                                  потенциал. В итоге купил капсулы Extra Mind, через месяц их регулярного использования
+                                  получил повышение. Акционеры компании отметили мою сообразительность, проактивность,
+                                  креативность мышления и свежий оригинальный взгляд на рутинные задачи. В семье все
+                                  наладилось. Спасибо вам!!
+                              </p>
+                          </div>
+                      </div>
+                  </div>
+  
+                  <div class="s-slider__slide s-slide">
+                      <div class="s-slide__content">
+                          <div class="s-slide__img">
+                              <img src="img/slide3.png" alt="">
+                          </div>
+                          <div class="s-slide__author">
+                              <p class="s-slide__name">
+                                  Лиза,
+                              </p>
+                              <p>
+                                  24 года старший аналитик
+  
+                              </p>
+                          </div>
+                          <div class="s-slide__text">
+                              <p>
+                                  Может, я покажусь чуть закомплексованной, но так уж повелось, что с детства и в семье, и
+                                  на учебе (потом на работе), и те же друзья не со зла, а будто троллили и называли меня
+                                  «тупенькой». Иногда я грустила, иногда даже обижалась, чаще смеялась им в ответ. Но
+                                  однажды я так устала от этого, и тут встретила рекламу Extra Mind. Эти капсулы
+                                  перевернули мою жизнь! Я запоминаю все книги и фильмы, оперирую множественными фактами,
+                                  могу поддержать любую беседу, а на работе мне в подчинение дали трех стажеров. И,
+                                  главное, мне есть чему их научить! Естественно, после того как поделюсь с ними этими
+                                  капсулами ;)
+                              </p>
+                          </div>
+                      </div>
+                  </div>
+  
+              </div>
+          </div>
+      </div>
+  
+  
+      <div class="container">
+          <div class="section9__button-block">
+              <div id="reviewButton" class="section9__button">
+                  Оставить свой отзыв
+              </div>
+          </div>
+      </div>
+  
+  </section>
+  <section class="tb tb_bottom bottom">
+      <div class="hurryup bottom__hurryup hurryup_absolute" data-statehu="true">
+          <div class="container">
+              <div class="hurryup__content">
+                  <div class="hurryup__sign sign">
+                      <div class="excl">
+                          <i>!</i>
+                      </div>
+                  </div>
+                  <div class="hurryup__text">
+                      <strong>
+                          Поторопись!
+                      </strong>
+                      <p>
+                          Количество упаковок по сниженной цене ограничено
+                      </p>
+                  </div>
+                  <div class="hurryup__counter js-countdown">
+                      <span class="js-count-digit">0</span>
+                      <span class="js-count-digit">0</span>
+                      <span class="js-count-digit">0</span>
+                  </div>
+                  <div class="hurryup__close close">
+  
+                  </div>
+              </div>
+          </div>
+      </div>
+  
+      <div class="container">
+          <div class="tb__content bottom__content">
+              <div class="tb__img bottom__img">
+                 
+                  <div class="arrow">
+                      <img class="arrow__shadow" src="img/arrow-tb-shadow.png" alt="">
+                      <img class="arrow__img" src="img/arrow-tb.png" alt="">
+  
+                  </div>
+              </div>
+              <div class="tb__product bottom__product">
+                  <img src="img/product.png" srcset="img/product@2x.png 2x" alt="">
+              </div>
+              <div class="tb__block bottom__block">
+                  <div class="tb__text bottom__text">
+                      <p class="text text_b">
+                          Extra Mind
+                      </p>
+                      <h2 class="tb__title title text-color-orange">
+                          Пробуди мозг,
+                      </h2>
+                      <p class="text text_s">
+                          чтобы изменить жизнь к лучшему
+                      </p>
+  
+                  </div>
+                  <div id="orderForm" class="tb__form-block bottom__form-block form-block">
+                     
+                      <div class="form-block__title">
+                          <div class="price">
+                              <div class="price__old">
+                                  <span class="value">78</span>
+                                  <span class="currency">&euro;</span>
+                              </div>
+                              <div class="price__new">
+                                  <span class="value">39</span>
+                                  <span class="currency">&euro;</span>
+                              </div>
+                          </div>
+                          <div class="form-block__text">
+                              ЗАПОЛНИ ФОРМУ, И МЫ С ТОБОЙ СВЯЖЕМСЯ
+                          </div>
+                      </div>
+                      <div class="form-block__main">
+                          <form id="form2" action="" class="form">
+                              <div class="form__input-wrap input-wrapper">
+                                  <input id="name2" class="form__input" type="text" name="name" placeholder="Имя">
+                                  <label for="name2">Введите ваше имя</label>
+                              </div>
+                              <div class="form__input-wrap input-wrapper">
+                                  <input id="phone2"  class="form__input" type="text" name="phone" placeholder="Телефон">
+                                  <label for="phone2">Введите ваш телефон</label>
+                              </div>
+  
+                              <div class="form__checkbox-wrap">
+                                  <label class="form__checkbox-label checkbox-container">
+                                      <input class="form__checkbox" type="checkbox" name="" checked>
+                                      <span class="checkmark"></span>
+                                      Я согласен на обработку <br> персональных данных
+                                  </label>
+                              </div>
+  
+                              <button class="form__button button button_b" type="submit">
+                                  Заказать
+                              </button>
+                          </form>
+                          <div class="secure">
+                              <img class="secure__img" src="img/norton.svg" alt="">
+                              <img class="secure__img" src="img/mcafee.svg" alt="">
+                          </div>
+                      </div>
+                 
+                  </div>
+              </div>
+          </div>
+      </div>
+  </section>
+  <div class="before-footer"></div>
+  <div id="windowOverlay" class="window-overlay"> </div>
+  
+  <div id="hurryupButton" class="hurryup-button ">
+      <div class="hurryup-button__content sign">
+          <div class="excl">
+              <i>!</i>
+          </div>
+      </div>
+     
+  </div>
+  
+  <div id="popupIp" class="popup-ip popup">
+  
+      <div class="popup-ip__close close buttonToForm"></div>
+  
+      <div class="logo popup-ip__logo logo_popup-ip">
+          <a class="logo__link" href="/">
+              <span class="logo__text1 logo__text1_popup-ip">
+                  Extra
+              </span>
+              <span class="logo__text2">
+                  mind
+              </span>
+          </a>
+      </div>
+  
+      <div class="popup-ip__title">
+          <p>
+              К сожалению, с этого IP-адреса в нашем магазине покупка не осуществлялась.
+          </p>
+          <p>
+              Чтобы оставить отзыв о продукте, оформите заказ на сайте.
+          </p>
+      </div>
+      <div class="popup-ip__text">
+          <p>
+              После того, как попробуете Extra Mind, возвращайтесь и поделитесь своим мнением!
+          </p>
+      </div>
+  
+      <a href="" class=" popup-ip__button button button_b buttonToForm">
+          <span class="discount">-50%</span> Хочу!
+      </a>
+  </div>
+  
+  <div class="floating-button floating-button_fixed ">
+      <div class="container">
+          <div class="floating-button__content">
+              <a href="" class="floating-button__button button button_b buttonToForm">
+                  <span class="discount">-50%</span> Хочу!
+              </a>
+          </div>
+      </div>
+  </div>
+  
+  <div class="hurryup hurryup_floating">
+      <div class="container">
+          <div class="hurryup__content">
+              <div class="hurryup__sign sign">
+                  <div class="excl">
+                      <i>!</i>
+                  </div>
+              </div>
+              <div class="hurryup__text">
+                  <strong>
+                      Поторопись!
+                  </strong>
+                  <p>
+                      Количество упаковок по сниженной цене ограничено
+                  </p>
+              </div>
+              <div class="hurryup__counter js-countdown">
+                  <span class="js-count-digit">0</span>
+                  <span class="js-count-digit">0</span>
+                  <span class="js-count-digit">0</span>
+              </div>
+              <div class="hurryup__close close">
+  
+              </div>
+          </div>
+      </div>
+  </div>
+
+
+  </div>
+</body>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="js/main.js"></script>
+
+  <script src="js/Countdown.js"></script>
+
+</html>
