@@ -1,0 +1,689 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>MillMax</title>
+
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap" rel="stylesheet">
+
+	<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+	<link rel="stylesheet" href="css/main.css">
+</head>
+
+<body>
+	
+	<div class="wrapper">
+
+		<nav id="navJs" class="main-nav">
+			<ul>
+				<li><a class="active linkJs" href="#main"><span></span></a></li>
+				<li><a class="linkJs" href="#brand-development"><span></span></a></li>
+				<li><a class="linkJs" href="#development-of-recipes"><span></span></a></li>
+				<li><a class="linkJs" href="#production"><span></span></a></li>
+				<li><a class="linkJs" href="#preparation"><span></span></a></li>
+				<li><a class="linkJs" href="#registration"><span></span></a></li>
+				<li><a class="linkJs" href="#innovation"><span></span></a></li>
+				<li><a class="linkJs" href="#advantages"><span></span></a></li>
+				<li><a class="linkJs" href="#contacts"><span></span></a></li>
+				
+			</ul>
+		</nav>
+		<header class="header">
+			<div class="container">
+				<div class="header__content">
+					<a href="/" class="logo">
+						<div class="logo__img">
+							<svg width="34" height="34" viewBox="0 0 34 34" fill="none" xmlns="http://www.w3.org/2000/svg">
+								<path
+									d="M30.4285 0L28.6386 7.94881H8.19896L0 14.041V34L8.19896 27.9078V17.6382L12.7603 14.215H12.8181V34L21.017 27.9078V17.6962L25.6362 14.215V34L33.8351 27.9078V14.215V11.256V0H30.4285Z"
+									fill="white" />
+							</svg>
+		
+						</div>
+						<div class="logo__text">
+							<svg width="122" height="23" viewBox="0 0 122 23" fill="none" xmlns="http://www.w3.org/2000/svg">
+								<path
+									d="M0.440703 6.82256H4.36697V9.14337C5.52175 7.34474 7.0807 6.41641 9.10157 6.41641C10.1986 6.41641 11.1802 6.70651 11.9885 7.2287C12.7969 7.75088 13.3743 8.50515 13.7207 9.4915C14.4136 8.44713 15.1642 7.69286 15.9725 7.17068C16.7809 6.70652 17.7624 6.41641 18.8018 6.41641C20.3607 6.41641 21.631 6.88058 22.4971 7.86692C23.3631 8.85327 23.8251 10.1297 23.8251 11.8123V21.6178H19.7833V12.3925C19.7833 11.6383 19.6101 11 19.2059 10.5939C18.8595 10.1877 18.3398 9.95566 17.7047 9.95566C16.8964 9.95566 16.2035 10.3038 15.5106 10.942C14.8178 11.5802 14.3558 12.4505 14.0094 13.4369V21.6178H9.96766V12.3925C9.96766 11.6383 9.79444 11.0581 9.39027 10.5939C8.9861 10.1297 8.52418 9.95566 7.88905 9.95566C7.19618 9.95566 6.50331 10.2458 5.92592 10.7679C5.29079 11.2901 4.82888 12.0444 4.4247 12.9727V21.6178H0.382965V6.82256H0.440703Z"
+									fill="white" />
+								<path
+									d="M27.4626 18.1365H30.2341V10.3038H27.4626V6.82254H34.2181V18.1365H36.7009V21.6178H27.4626V18.1365ZM29.7144 0.614349H34.3336V4.32766H29.7144V0.614349Z"
+									fill="white" />
+								<path
+									d="M39.2991 18.1365H41.8974V4.09557H39.4146V0.672363H45.8814V18.1945H48.4797V21.6758H39.2414V18.1365H39.2991Z"
+									fill="white" />
+								<path
+									d="M50.7892 18.1365H53.3875V4.09557H50.9047V0.672363H57.3715V18.1945H59.9697V21.6758H50.7315V18.1365H50.7892Z"
+									fill="white" />
+								<path
+									d="M63.2609 6.82256H67.1871V9.14337C68.3419 7.34474 69.9009 6.41641 71.9217 6.41641C73.0188 6.41641 74.0003 6.70651 74.8087 7.2287C75.617 7.75088 76.1944 8.50515 76.5409 9.4915C77.2337 8.44713 77.9843 7.69286 78.7927 7.17068C79.601 6.70652 80.5826 6.41641 81.6219 6.41641C83.1809 6.41641 84.4511 6.88058 85.3172 7.86692C86.1833 8.85327 86.6452 10.1297 86.6452 11.8123V21.6178H82.6035V12.3925C82.6035 11.6383 82.4303 11 82.0261 10.5939C81.6796 10.1877 81.16 9.95566 80.5249 9.95566C79.7165 9.95566 79.0236 10.3038 78.3308 10.942C77.6379 11.5802 77.176 12.4505 76.8296 13.4369V21.6178H72.7878V12.3925C72.7878 11.6383 72.6146 11.0581 72.2104 10.5939C71.8063 10.1297 71.3443 9.95566 70.7092 9.95566C70.0163 9.95566 69.3235 10.2458 68.7461 10.7679C68.111 11.2901 67.649 12.0444 67.2449 12.9727V21.6178H63.2031V6.82256H63.2609Z"
+									fill="white" />
+								<path
+									d="M91.6108 20.1092C90.687 18.8328 90.2828 17.0342 90.2828 14.7714C90.2828 12.0444 90.9756 9.95566 92.3614 8.56317C93.7471 7.11266 95.7103 6.41641 98.3085 6.41641C99.752 6.41641 101.484 6.64849 103.39 7.11266V21.6178H99.5788L99.6365 19.2389H99.5211C99.0014 20.1673 98.424 20.8055 97.7311 21.3277C97.0383 21.7918 96.2299 22.0239 95.3061 22.0239C93.6894 22.0239 92.4769 21.3857 91.6108 20.1092ZM97.8466 17.5563C98.424 16.9181 98.9437 16.1058 99.4633 15.0034V10.1877C98.8282 10.0137 98.2508 9.95566 97.6157 9.95566C96.4609 9.95566 95.5948 10.3618 95.0174 11.1161C94.44 11.9284 94.1513 13.0888 94.1513 14.5973C94.1513 15.8157 94.3245 16.7441 94.671 17.4403C95.0174 18.1366 95.4793 18.4847 96.1144 18.4847C96.6918 18.4847 97.2692 18.1946 97.8466 17.5563Z"
+									fill="white" />
+								<path
+									d="M113.378 17.0922L110.434 21.6178H105.872L111.3 13.9591L106.392 6.82254L110.838 6.59045L113.609 10.7679L116.208 6.82254H120.596L115.746 13.785L121.058 21.6178L116.612 21.8498L113.378 17.0922Z"
+									fill="white" />
+							</svg>
+		
+						</div>
+					</a>
+		
+					<nav class="header__nav">
+						<ul class="header__menu menu">
+							<li class="menu__item"><a href="" class="menu__link link-white">
+								Лаборатория
+							</a></li>
+							<li class="menu__item"><a href="" class="menu__link link-white">
+								Производство
+							</a></li>
+							<li class="menu__item"><a href="" class="menu__link link-white">
+								Товарные знаки
+							</a></li>
+							<li class="menu__item"><a href="" class="menu__link link-white">
+								Статьи
+							</a></li>
+							<li class="menu__item"><a href="" class="menu__link link-white">
+								Контакты
+							</a></li>
+						</ul>
+		
+						<div class="header__lang lang dropdown">
+							<div class="lang__current dropdown-toggle link-white">
+								Ру
+							</div>
+							<ul class="lang__list dropdown-menu">
+								<li class="lang__list-item"><a href="" class="link-white">
+									En
+								</a></li>
+								<li class="lang__list-item"><a href="" class="link-white">
+									Lv
+								</a></li>
+								<li class="lang__list-item"><a href="" class="link-white">
+									Es
+								</a></li>
+							</ul>
+						</div>
+					</nav>
+		
+		
+				</div>
+			</div>
+		</header>
+		<section id="main" class="section-main visibleSection">
+		
+			<div class="container ">
+				<div class="section-main__content ">
+		
+					<div class="section-main__img-block">
+						<div class="section-main__img-bg1"></div>
+						<div class="section-main__img-bg2"></div>
+						
+						<div class="section-main__img" id="main_anim">
+						</div>
+						
+					</div>
+					
+					<div class="section-main__block ">
+						<div class="section-main__text-block section-main__text-block_1">
+							<h1 class="section-main__title anim-text anim-text-left anim-visible">
+								MillMax
+							</h1>
+							<h3 class="section-main__subtitle title-s anim-text anim-text-right anim-visible">
+								Завод и лаборатория.
+								<br>
+								Предоставляем комплексные услуги по контрактному производству БАД и кремов.
+							</h3>
+						</div>
+		
+						<div class="section-main__text-block section-main__text-block_2">
+							<div class="section-main__text-section anim-text anim-text-left ">
+								<h3 class="section-main__subtitle title-s">
+									Предоставляем комплексные услуги
+								</h3>
+								<p class="section-main__text text">
+									по контрактному производству БАД и кремов — от идеи продукта и поиска поставщиков сырья до
+									оформления документов и доставки готовой партии.
+								</p>
+							</div>
+							<div class="section-main__text-section anim-text anim-text-right ">
+								<h3 class="section-main__subtitle title-s">
+									Завод и лаборатория в Латвии —
+								</h3>
+								<p class="section-main__text text">
+									вся продукция изготавливается и сертифицируется по стандартам Евросоюза и имеет маркировку
+									ЕС. Но мы можем обеспечить добавкам соответствие законодательству любой страны.
+		
+								</p>
+							</div>
+						</div>
+					</div>
+		
+				</div>
+		
+			</div>
+		
+		</section>
+		<section id="brand-development" class="section-content section-content_yellow section-content_left visibleSection">
+			<div class="section-content__content section-content__content_left">
+				<div class="section-content__text-block">
+					<h2 data-aos="fade-right"  class="section-content__title title-b">
+						Разработка торговых марок
+					</h2>
+					<p data-aos="fade-right" data-aos-delay="200" class="section-content__text text">
+						Создадим вашу собственную торговую марку (Private Label) и поможем сделать ее узнаваемой. Проведем
+						маркетинговый анализ рынка с учетом особенностей целевых стран. Разработаем бренд с нуля — от нейминга
+						до позиционирования. Подготовим и локализуем дизайн упаковок, инструкции и промо-материалы. Посоветуем
+						способы продвижения и поможем вывести продукт на рынок.
+		
+					</p>
+					<p data-aos="fade-right" data-aos-delay="400" class="section-content__text text">
+						На каждом этапе создания мы проводим тесты на контрольных группах, чтобы найти именно тот вариант,
+						который подходит под ваши задачи и целевую аудиторию.
+					</p>
+					<div class="section-content__button-wrap">
+						<a class="section-content__button button button_yellow" href="">
+							Подробнее
+						</a>
+					</div>
+		
+				</div>
+			</div>
+		</section>
+		
+		<section id="development-of-recipes" class="section-content section-content_green section-content_right visibleSection">
+			<div class="section-content__content section-content__content_right whiteBlockJs" data-color="#096B0B">
+				<div class="section-content__text-block">
+					<h2 data-aos="fade-left"  class="section-content__title title-b">
+						Разработка рецептов
+					</h2>
+					<p data-aos="fade-left" data-aos-delay="200" class="section-content__text text">
+						Производим добавки по вашим рецептам, адаптируем и разрабатываем уникальные составы с нуля.
+					</p>
+					<p data-aos="fade-left" data-aos-delay="400" class="section-content__text text">
+						Вы предоставляете информацию о предназначении препарата, желаемых характеристиках и wow-компонентах — мы
+						разрабатываем формулу, которая точно пройдет все этапы регистрации.
+					</p>
+					<p data-aos="fade-left" data-aos-delay="600" class="section-content__text text">
+						Подберем поставщиков качественного сырья. Проведем испытания и тесты продукции без необходимости
+						обращаться в сторонние лаборатории. Проконтролируем процесс производства на всех стадиях. Предоставим
+						отчетность, соответствующую стандартам Евросоюза, а при необходимости — любой страны мира.
+					</p>
+					<div class="section-content__button-wrap">
+						<a class="section-content__button button button_green" href="">
+							Подробнее
+						</a>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section id="production" class="section-content section-content_blue section-content_left visibleSection">
+			<div class="section-content__content section-content__content_left">
+				<div class="section-content__text-block">
+					<h2 data-aos="fade-right" class="section-content__title title-b">
+						Производство и фасовка
+					</h2>
+					<p data-aos="fade-right" data-aos-delay="200" class="section-content__text text">
+						Производим таблетированные и капсулированные БАД, драже, крема, гели, мази, сыпучие добавки, сиропы,
+						настои, экстракты и другие формы по вашему заказу.
+		
+					</p>
+					<p data-aos="fade-right" data-aos-delay="400" class="section-content__text text">
+						Работаем с любыми объемами — изготовим как опытные, так и поточные партии. Собственные склады позволяют
+						хранить готовый товар и запасы сырья. Производство организовано по современным стандартам и только на
+						сертифицированном оборудовании, с соблюдением требований Евросоюза.
+		
+					</p>
+					<p data-aos="fade-right" data-aos-delay="600" class="section-content__text text">
+						Используем различные виды фасовки, первичной и вторичной упаковки: блистеры, саше для сыпучих БАД и
+						жидкостей, зип-пакеты, тубы, флаконы, банки, футляры. Все материалы подходят для использования с
+						лекарственными средствами и пищевыми продуктами.
+		
+					</p>
+					<p data-aos="fade-right" data-aos-delay="800" class="section-content__text text">
+						В зависимости от вида продукта, подбираем групповую и транспортную упаковку. Составляем и упаковываем
+						наборы и ритейл-комплекты.
+		
+					</p>
+					<div class="section-content__button-wrap">
+						<a class="section-content__button button button_blue" href="">
+							Подробнее
+						</a>
+					</div>
+		
+				</div>
+			</div>
+		</section>
+		
+		<section id="preparation" class="section-content section-content_orange section-content_right visibleSection">
+			<div class="section-content__content section-content__content_right whiteBlockJs" data-color="#F68710">
+				<div class="section-content__text-block">
+					<h2 data-aos="fade-left"  class="section-content__title title-b">
+						Подготовка документов
+					</h2>
+					<p data-aos="fade-left" data-aos-delay="200" class="section-content__text text">
+						Подготовим документы о качестве и безопасности, учитывая требования ЕС и стран, с которыми вы планируете
+						работать. Предоставим нормативные акты и технические регламенты. Составим полный пакет документов для
+						уполномоченных органов, переведем на государственный язык. Сопроводим при подаче заявлений,
+						сертификации, декларировании, уплате пошлин.
+		
+		
+					</p>
+					<p data-aos="fade-left" data-aos-delay="400" class="section-content__text text">
+						Поскольку в каждой стране (даже в пределах ЕС) есть свои особенности и ограничения, поможем выбрать
+						оптимальный порядок регистрации.
+		
+					</p>
+					<p data-aos="fade-left" data-aos-delay="600" class="section-content__text text">
+						Проведем детальный анализ продукта, его этикетки, упаковки и маркировки на соответствия требованиям.
+						Расскажем об особенностях конкретных рынков и подскажем, как вывести на них вашу продукцию.
+		
+					</p>
+					<p data-aos="fade-left" data-aos-delay="800" class="section-content__text text">
+						Поддержим после регистрации: при подаче уведомлений, внесении изменений в продукт или маркировку,
+						возникновении спорных вопросов.
+		
+					</p>
+					<div class="section-content__button-wrap">
+						<a class="section-content__button button button_orange" href="">
+							Подробнее
+						</a>
+					</div>
+				</div>
+			</div>
+		</section>
+		
+		<section id="registration" class="section-content section-content_seagreen section-content_left visibleSection">
+			<div class="section-content__content section-content__content_left">
+				<div class="section-content__text-block">
+					<h2 data-aos="fade-right" class="section-content__title title-b">
+						Регистрация товарного знака и патента
+					</h2>
+					<p data-aos="fade-right" data-aos-delay="200" class="section-content__text text">
+		
+						Зарегистрируем товарный знак (ТМ). Подготовим заявку и полный пакет сопутствующих документов. Сопроводим
+						при продлении, юридической защите, таможенном контроле.
+		
+					</p>
+					<p data-aos="fade-right" data-aos-delay="400" class="section-content__text text">
+		
+						Поможем получить патент на вашу рецептуру в конкретной стране или ряде стран. Поддержим на всех этапах —
+						от выбора процедуры подачи заявки до защиты патентных прав.
+		
+					</p>
+					<div class="section-content__button-wrap">
+						<a class="section-content__button button button_seagreen" href="">
+							Подробнее
+						</a>
+					</div>
+		
+				</div>
+			</div>
+		</section>
+		<section id="innovation" class="section-mail visibleSection whiteBlockJs" data-color="#0A67AF">
+			<div class="container">
+				<div class="section-mail__content">
+					<div class="section-mail__block">
+						<h2 class="section-mail__title title-b">
+							Новости 
+							<br>
+							лаборатории
+						</h2>
+						<p class="section-mail__text text">
+							Хотите быть в курсе открытий и инноваций нашей лаборатории?
+							<br>
+							Оставьте адрес вашей электронной почты.
+						</p>
+						<form class="section-mail__form mail-form form" action="">
+							<div class="mail-form__group form__group">
+								<input class="mail-form__input " type="text" placeholder="E-mail">
+								<button type="submit" class="mail-form__button button button_orange">
+									<div class="button__content">
+										<svg width="22" height="13" viewBox="0 0 22 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+											<path d="M0 6.5C5.2 6.5 15.8333 6.5 20.5 6.5" stroke="white" stroke-width="2"/>
+											<path d="M15 1L20 6.5L15 12" stroke="white" stroke-width="2"/>
+											</svg>
+									</div>
+									
+										
+								</button>
+							</div>
+						</form>
+					</div>
+				</div>
+			</div>
+		</section>
+		
+		
+		<section id="advantages" class="section-advantages visibleSection sectionBgJs">
+		
+		
+		
+			<div class="section-advantages__overlay advantages-overlay">
+				<div class="advantages-overlay__item advantages-overlay__item_color advantages-overlay__item_1 sectionBgJs">
+					<div class="container">
+						<h2 class="section-advantages__title">
+							Наши <br> преимущества
+						</h2>
+					</div>
+				</div>
+				<div class="advantages-overlay__item advantages-overlay__item_2">
+		
+					<h3 class="section-advantages__bg-text">
+						преимущества
+					</h3>
+				</div>
+				<div class="advantages-overlay__item advantages-overlay__item_color advantages-overlay__item_3 sectionBgJs">
+				</div>
+			</div>
+		
+			<div class="container">
+				<div class="section-advantages__content">
+		
+					<div class="section-advantages__block">
+						<ul class="section-advantages__list advantages-list">
+							<li data-bg="#E5DAEE" class="advantages-list__item advantages-list__item_color1">
+								<div class="advantages-list__item-content">
+									<h2>
+										Большие объемы
+									</h2>
+									<p>
+										Современное оборудование и отлаженное производство позволяют нам изготавливать большие
+										партии в сжатые сроки и брать срочные заказы.
+		
+									</p>
+								</div>
+		
+							</li>
+							<li data-bg="#DAE0EE" class="advantages-list__item advantages-list__item_color2">
+								<div class="advantages-list__item-content">
+									<h2>
+										Высокая скорость работы
+									</h2>
+									<p>
+										Комплексный подход, опыт и наличие всех необходимых ресурсов сокращают сроки на
+										разработку рецептов, анализ рынка, производство и сертификацию.
+									</p>
+								</div>
+							</li>
+							<li data-bg="#D2E7E2" class="advantages-list__item advantages-list__item_color3">
+								<div class="advantages-list__item-content">
+									<h2>
+										Содействие на всех этапах
+									</h2>
+									<p>
+										Вне зависимости от того, на какой стадии производства и легализации вы находитесь, наши
+										специалисты подберут оптимальную схему дальнейших действий.
+		
+									</p>
+								</div>
+							</li>
+							<li data-bg="#CFEBD4" class="advantages-list__item advantages-list__item_color4">
+								<div class="advantages-list__item-content">
+									<h2>
+										Доставка в ваш регион
+									</h2>
+									<p>
+										Где бы вы ни находились, доставим опытные и готовые партии продукции. При необходимости
+										— окажем услуги складского хранения.
+									</p>
+								</div>
+							</li>
+							<li data-bg="#EAEAC6" class="advantages-list__item advantages-list__item_color5">
+								<div class="advantages-list__item-content">
+									<h2>
+										Гибкие условия
+									</h2>
+									<p>
+										Работаем с мелкими и крупными заказчиками. Принимаем заявки как на полный цикл
+										производства, так и отдельные услуги. Предоставляем скидки и бонусы.
+									</p>
+								</div>
+							</li>
+							<li data-bg="#EFDBD7" class="advantages-list__item advantages-list__item_color6">
+								<div class="advantages-list__item-content">
+									<h2>
+										Современные стандарты
+									</h2>
+									<p>
+										Работаем по стандартам ISO 22716:2007 (GMP Cosmetics) и ISO 22000 (HACCP). Проводим
+										собственный контроль качества на каждом этапе.
+		
+									</p>
+								</div>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section id="contacts" class="section-contacts visibleSection whiteBlockJs" data-color="#0A67AF">
+			<div class="section-contacts__content">
+				<div class="section-contacts__block ">
+					<h2 class="section-contacts__title title-b">
+						Как с нами связаться
+					</h2>
+					<h3 class="section-contacts__subtitle ">
+						<span>
+							MillMax
+						</span>
+						 manufactory
+					</h3>
+					<ul class="section-contacts__contacts-list contacts-list">
+						<li class="contacts-list__item"><a href="tel:+37120004510">
+							<span class="contacts-list__icon contacts-list__icon_phone">
+								<svg width="13" height="13" viewBox="0 0 13 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+									<path fill-rule="evenodd" clip-rule="evenodd" d="M12.0001 9.3586C11.5958 9.03512 11.1637 8.74478 10.7383 8.44818C9.89 7.85614 9.11408 7.81012 8.48107 8.76264C8.1256 9.2974 7.62798 9.32082 7.10766 9.08622C5.67324 8.43992 4.56559 7.44411 3.91677 5.99537C3.62976 5.35441 3.63354 4.77976 4.30506 4.32642C4.6606 4.08668 5.01879 3.80299 4.99015 3.27913C4.95275 2.59607 3.28374 0.313367 2.62464 0.0724377C2.35191 -0.0272744 2.08031 -0.0207851 1.80284 0.0718776C0.257377 0.588325 -0.382755 1.85131 0.230293 3.34676C2.0592 7.80834 5.27776 10.9143 9.7083 12.8101C9.9609 12.918 10.2415 12.9612 10.3836 12.9999C11.3923 13.01 12.5739 12.0443 12.9152 11.0859C13.2437 10.1639 12.5494 9.79794 12.0001 9.3586Z" fill="#555555"/>
+									</svg>	
+							</span>
+							+371 200 04 510
+						</a></li>
+						<li class="contacts-list__item"><a href="mailto:customers@millmax.eu">
+							<span class="contacts-list__icon contacts-list__icon_email">
+								<svg width="15" height="11" viewBox="0 0 15 11" fill="none" xmlns="http://www.w3.org/2000/svg">
+									<path d="M15 3.54688V9.75C15 10.0938 14.8689 10.388 14.6066 10.6328C14.3443 10.8776 14.029 11 13.6607 11H1.33929C0.970982 11 0.655692 10.8776 0.393415 10.6328C0.131138 10.388 0 10.0938 0 9.75V3.54688C0.245536 3.80208 0.527344 4.02864 0.845424 4.22657C2.86552 5.50781 4.25223 6.40625 5.00557 6.92187C5.32366 7.14062 5.58175 7.31119 5.77985 7.43359C5.97796 7.55599 6.24163 7.68099 6.57088 7.80859C6.90012 7.9362 7.20703 8 7.49162 8H7.50838C7.79297 8 8.09988 7.9362 8.42912 7.80859C8.75837 7.68099 9.02204 7.55599 9.22015 7.43359C9.41825 7.31119 9.67634 7.14062 9.99442 6.92187C10.9431 6.28125 12.3326 5.38281 14.163 4.22657C14.481 4.02344 14.76 3.79688 15 3.54688ZM15 1.25C15 1.66146 14.8633 2.05469 14.5898 2.42969C14.3164 2.80469 13.976 3.125 13.5686 3.39063C11.4704 4.75 10.1646 5.59636 9.65122 5.92969C9.59539 5.96617 9.47681 6.04559 9.29548 6.16797C9.11412 6.29037 8.96345 6.38932 8.84348 6.46484C8.72349 6.54036 8.5784 6.625 8.4082 6.71875C8.238 6.8125 8.07757 6.88281 7.9269 6.92969C7.77622 6.97659 7.63672 7.00004 7.50838 7.00004H7.49162C7.36328 7.00004 7.22378 6.97659 7.0731 6.92969C6.92243 6.88279 6.762 6.81248 6.5918 6.71875C6.4216 6.625 6.27651 6.54036 6.15653 6.46484C6.03655 6.38932 5.88588 6.29036 5.70452 6.16797C5.52316 6.04557 5.40457 5.96614 5.34877 5.92969C4.84096 5.59636 4.10993 5.1211 3.15569 4.50391C2.20145 3.88672 1.62946 3.51562 1.43974 3.39063C1.09375 3.17188 0.767299 2.87109 0.46038 2.48828C0.15346 2.10546 0 1.75 0 1.42188C0 1.01563 0.115793 0.677083 0.347378 0.406245C0.578963 0.135415 0.909599 0 1.33929 0H13.6607C14.0234 0 14.3373 0.122395 14.6024 0.367185C14.8675 0.611975 15 0.906247 15 1.25Z" fill="#555555"/>
+									</svg>
+									
+							</span>
+							<u>customers@millmax.eu</u>
+						</a></li>
+						<li class="contacts-list__item"><a href="">
+							<span class="contacts-list__icon contacts-list__icon_address">
+								<svg width="13" height="17" viewBox="0 0 13 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+									<path fill-rule="evenodd" clip-rule="evenodd" d="M3.48656 12.3422C3.3571 12.1922 3.22175 12.0353 3.07895 11.8679C3.03363 11.8148 2.98795 11.7614 2.94196 11.7075C1.59912 10.1363 0 8.26527 0 6.09434C0 3.84906 1.36842 0 6.5 0C11.6316 0 13 3.84906 13 6.09434C13 8.26398 11.8183 9.64715 10.1024 11.6555C10.0426 11.7255 9.98215 11.7963 9.92105 11.8679C9.77825 12.0353 9.6429 12.1922 9.51344 12.3422C8.40238 13.63 7.72562 14.4145 6.5 17C5.27438 14.4145 4.59762 13.63 3.48656 12.3422ZM6.5 8C7.88071 8 9 6.88071 9 5.5C9 4.11929 7.88071 3 6.5 3C5.11929 3 4 4.11929 4 5.5C4 6.88071 5.11929 8 6.5 8Z" fill="#555555"/>
+									</svg>
+									
+							</span>
+							Šaltinio g. 11, Kavarskas 29260, Литва
+		
+						</a></li>
+		
+					</ul>
+		
+					<form class="section-contacts__form contacts-form form" action="">
+						<div class="text">
+							Отправьте заявку или задайте вопрос
+						</div>
+						<div class="contacts-form__input-wrap ">
+							<input class="form__input" type="text" placeholder="Имя">
+						</div>
+						<div class="contacts-form__input-wrap ">
+							<input class="form__input" type="text" placeholder="Компания">
+						</div>
+						<div class="contacts-form__input-wrap ">
+							<input class="form__input" type="text" placeholder="Контакт">
+						</div>
+						<div class="contacts-form__textarea-wrap ">
+							<textarea rows="2" class="form__textarea" name="" id=""  placeholder="Сообщение">
+		
+							</textarea>
+						</div>
+		
+						<div class="contacts-form__file-wrap file">
+							
+							<div class="file__caption">
+								<span>
+									<svg width="21" height="24" viewBox="0 0 21 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+										<path d="M13.4207 17.5129L13.4208 17.513C13.5477 17.6438 13.5477 17.867 13.4208 17.9977C13.3021 18.1201 13.1107 18.1201 12.9918 17.9978C12.9918 17.9978 12.9918 17.9978 12.9917 17.9977L5.23995 10.0074C5.23981 10.0073 5.23967 10.0071 5.23953 10.007C4.00832 8.73408 4.01453 6.66553 5.24909 5.38965C6.47264 4.12514 8.45516 4.12324 9.68947 5.38173C9.68973 5.382 9.68999 5.38226 9.69025 5.38253L17.4455 13.367L17.4456 13.3671L19.1641 15.1374C20.9711 17.0796 20.9405 20.1575 19.0992 22.0591C17.261 23.9527 14.2979 23.9834 12.4214 22.1304L10.9863 20.6567L10.9857 20.6561L2.37141 11.7819C2.37126 11.7818 2.37111 11.7816 2.37096 11.7815C-0.127474 9.19405 -0.122722 5.00797 2.37966 2.43011C4.87401 -0.139475 8.91235 -0.144281 11.4159 2.42119C11.416 2.42133 11.4161 2.42147 11.4163 2.42161L20.0311 11.2963C20.115 11.3827 20.1491 11.5078 20.1169 11.6289C20.0826 11.7575 19.9914 11.8411 19.8949 11.8675C19.7847 11.8965 19.6752 11.8658 19.5975 11.7857L10.9817 2.9101L10.9817 2.91006L10.9766 2.90491C8.70945 0.636408 5.08588 0.667831 2.85444 2.96657L2.85405 2.96697C0.6311 5.26211 0.600701 8.96423 2.7946 11.2911L2.79456 11.2911L2.79962 11.2963L3.37523 11.8893L11.4154 20.172L12.8498 21.6497L12.8504 21.6502C14.4765 23.3201 17.1119 23.3201 18.7381 21.6502L18.7392 21.6491C20.3521 19.9822 20.3521 17.2933 18.7392 15.6264L18.7386 15.6259L17.0164 13.8517L17.0163 13.8516L9.25947 5.86551C9.25944 5.86547 9.2594 5.86544 9.25937 5.8654C8.26809 4.84433 6.65974 4.84437 5.6685 5.86551C4.68534 6.87832 4.68531 8.50918 5.66839 9.52204C5.66843 9.52207 5.66846 9.52211 5.6685 9.52214L13.4207 17.5129Z" stroke="#555555"/>
+										</svg>
+								</span>			
+								Прикрепить файл
+							</div>
+							<input class="file__input" class="" type="file" >
+						</div>
+		
+						<button type="submit" class="contacts-form__button button button_orange">
+							Отправить	
+						</button>
+					</form>
+				</div>
+			</div>
+			<div class="section-contacts__map">
+				<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2263.779652549752!2d24.926176071374393!3d55.43163634997299!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46e7952e050c1be9%3A0xaf7aa27653e19793!2zxaBhbHRpbmlvIGcuIDExLCBLYXZhcnNrYXMgMjkyNjAsINCb0LjRgtCy0LA!5e0!3m2!1sru!2sua!4v1603280232413!5m2!1sru!2sua" width="100%" height="100%" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+			</div>
+		</section>
+		
+		<footer class="footer">
+			<div class="container">
+				<div class="footer__content">
+					<ul class="footer__soc soc">
+						<li class="soc__item"><a class="link-white" href="">
+								<span>
+									<svg width="25" height="25" viewBox="0 0 25 25" fill="none"
+										xmlns="http://www.w3.org/2000/svg">
+										<path opacity="0.8"
+											d="M24.1818 1.33324V22.8432C24.1818 23.5827 23.5827 24.1764 22.8486 24.1764H16.6844V14.8168H19.8259L20.2955 11.1679H16.679V8.83608C16.679 7.77812 16.9705 7.06023 18.4872 7.06023H20.4196V3.7946C20.0849 3.75142 18.9406 3.64886 17.602 3.64886C14.8168 3.64886 12.906 5.34915 12.906 8.47443V11.1679H9.75369V14.8168H12.906V24.1818H1.33324C0.599148 24.1818 0 23.5827 0 22.8486V1.33324C0 0.599148 0.599148 0 1.33324 0H22.8432C23.5827 0 24.1818 0.599148 24.1818 1.33324Z"
+											fill="white" />
+									</svg>
+								</span>
+								Facebook
+							</a></li>
+						<li class="soc__item"><a class="link-white" href="">
+								<span>
+									<svg width="25" height="24" viewBox="0 0 25 24" fill="none"
+										xmlns="http://www.w3.org/2000/svg">
+										<path opacity="0.8"
+											d="M8.12722 11.9989C8.12722 9.79006 9.94586 7.99896 12.1899 7.99896C14.4339 7.99896 16.2535 9.79006 16.2535 11.9989C16.2535 14.2078 14.4339 15.9989 12.1899 15.9989C9.94586 15.9989 8.12722 14.2078 8.12722 11.9989ZM5.93051 11.9989C5.93051 15.4018 8.73282 18.1602 12.1899 18.1602C15.6469 18.1602 18.4492 15.4018 18.4492 11.9989C18.4492 8.59602 15.6469 5.83762 12.1899 5.83762C8.73282 5.83762 5.93051 8.59602 5.93051 11.9989ZM17.2342 5.59332C17.2339 6.38854 17.8885 7.03345 18.6964 7.03376C19.5043 7.03408 20.1595 6.38969 20.1598 5.59447C20.1601 4.79925 19.5055 4.15434 18.6976 4.15402H18.697C17.8895 4.1544 17.2349 4.79848 17.2342 5.59332ZM7.26516 21.7657C6.0767 21.7125 5.43073 21.5176 5.00145 21.353C4.43233 21.1349 4.02626 20.8751 3.59933 20.4555C3.17239 20.0358 2.90811 19.6365 2.68752 19.0763C2.52018 18.6539 2.32222 18.0179 2.26819 16.848C2.2091 15.5832 2.1973 15.2033 2.1973 11.999C2.1973 8.79473 2.21007 8.41585 2.26819 7.15001C2.32231 5.98016 2.52174 5.34537 2.68752 4.92176C2.90909 4.36156 3.17297 3.96185 3.59933 3.5416C4.02568 3.12135 4.43136 2.86121 5.00145 2.64408C5.43053 2.47936 6.0767 2.2845 7.26516 2.23132C8.55007 2.17315 8.93605 2.16153 12.1899 2.16153C15.4437 2.16153 15.83 2.17411 17.116 2.23132C18.3045 2.28459 18.9494 2.4809 19.3797 2.64408C19.9489 2.86121 20.3549 3.12193 20.7819 3.5416C21.2088 3.96127 21.4721 4.36156 21.6937 4.92176C21.861 5.34412 22.059 5.98016 22.113 7.15001C22.1721 8.41585 22.1839 8.79473 22.1839 11.999C22.1839 15.2033 22.1721 15.5822 22.113 16.848C22.0589 18.0179 21.8599 18.6537 21.6937 19.0763C21.4721 19.6365 21.2082 20.0362 20.7819 20.4555C20.3555 20.8748 19.9489 21.1349 19.3797 21.353C18.9507 21.5177 18.3045 21.7126 17.116 21.7657C15.8311 21.8239 15.4451 21.8355 12.1899 21.8355C8.93458 21.8355 8.54968 21.8239 7.26516 21.7657ZM7.16423 0.0726654C5.86654 0.130836 4.9798 0.333378 4.20541 0.629991C3.40341 0.936299 2.72448 1.34724 2.04604 2.01399C1.36761 2.68075 0.951199 3.3501 0.640017 4.13953C0.338683 4.90228 0.132918 5.77465 0.0738218 7.052C0.0137502 8.33138 0 8.74039 0 11.9989C0 15.2574 0.0137502 15.6665 0.0738218 16.9458C0.132918 18.2233 0.338683 19.0956 0.640017 19.8583C0.951199 20.6473 1.3677 21.3174 2.04604 21.9838C2.72439 22.6503 3.40341 23.0607 4.20541 23.3678C4.98127 23.6645 5.86654 23.867 7.16423 23.9252C8.46464 23.9833 8.87949 23.9978 12.1899 23.9978C15.5002 23.9978 15.9158 23.9843 17.2155 23.9252C18.5133 23.867 19.3994 23.6645 20.1743 23.3678C20.9758 23.0607 21.6552 22.6506 22.3337 21.9838C23.0121 21.3171 23.4276 20.6473 23.7397 19.8583C24.041 19.0956 24.2478 18.2232 24.3059 16.9458C24.365 15.6655 24.3787 15.2574 24.3787 11.9989C24.3787 8.74039 24.365 8.33138 24.3059 7.052C24.2468 5.77455 24.041 4.9018 23.7397 4.13953C23.4276 3.35058 23.011 2.68181 22.3337 2.01399C21.6563 1.34618 20.9758 0.936299 20.1753 0.629991C19.3994 0.333378 18.5132 0.129876 17.2165 0.0726654C15.9167 0.0144947 15.5012 0 12.1908 0C8.88046 0 8.46464 0.0135348 7.16423 0.0726654Z"
+											fill="white" />
+									</svg>
+		
+								</span>
+								Instagram
+							</a></li>
+						<li class="soc__item"><a class="link-white" href="">
+								<span>
+									<svg width="29" height="23" viewBox="0 0 29 23" fill="none"
+										xmlns="http://www.w3.org/2000/svg">
+										<path opacity="0.8"
+											d="M29 2.72109C27.9333 3.18302 26.7876 3.49529 25.583 3.63565C26.8124 2.91721 27.7543 1.77874 28.1989 0.423778C27.0311 1.10068 25.753 1.57722 24.4202 1.8327C23.3356 0.704423 21.7889 0 20.0777 0C16.7932 0 14.1295 2.5985 14.1295 5.80572C14.1295 6.26014 14.1819 6.70348 14.2828 7.12913C9.33839 6.88663 4.95489 4.5753 2.02078 1.06323C1.50844 1.92098 1.21519 2.91826 1.21519 3.98231C1.21519 5.99629 2.26558 7.77323 3.86164 8.81413C2.9168 8.78555 1.9927 8.53667 1.16658 8.08827V8.16164C1.16658 10.9748 3.21692 13.3206 5.93864 13.854C5.43866 13.9877 4.91396 14.0576 4.37114 14.0576C3.98735 14.0576 3.615 14.0221 3.25125 13.9554C4.00831 16.2611 6.2054 17.9395 8.80794 17.987C6.77187 19.5446 4.20635 20.4731 1.41991 20.4731C0.939975 20.4731 0.465649 20.4451 0 20.3903C2.63317 22.0381 5.75964 23 9.11939 23C20.0615 23 26.0458 14.1534 26.0458 6.48144C26.0458 6.22957 26.0402 5.97957 26.0277 5.73048C27.1937 4.90747 28.2001 3.88844 29 2.72109Z"
+											fill="white" />
+									</svg>
+		
+								</span>
+								Twitter
+							</a></li>
+						<li class="soc__item"><a class="link-white" href="">
+								<span>
+									<svg width="27" height="22" viewBox="0 0 27 22" fill="none"
+										xmlns="http://www.w3.org/2000/svg">
+										<path opacity="0.8"
+											d="M24.8081 0.250041L0.887377 9.22597C-0.0752259 9.64394 -0.400812 10.481 0.654674 10.9353L6.79143 12.833L21.6292 3.91C22.4393 3.34981 23.2687 3.4992 22.555 4.1154L9.8114 15.3431L9.41107 20.0946C9.78187 20.8283 10.4608 20.8316 10.8938 20.467L14.4195 17.2208L20.4579 21.6206C21.8603 22.4286 22.6235 21.9072 22.9252 20.4264L26.8858 2.17758C27.2971 0.354796 26.5958 -0.448319 24.8081 0.250041Z"
+											fill="white" />
+									</svg>
+		
+								</span>
+								Telegram
+							</a></li>
+					</ul>
+		
+					<ul class="footer__contacts-list contacts-list">
+						<li class="contacts-list__item"><a class="link-white" href="tel:+37120004510">
+								<span class="contacts-list__icon contacts-list__icon_phone">
+									<svg width="13" height="13" viewBox="0 0 13 13" fill="none"
+										xmlns="http://www.w3.org/2000/svg">
+										<path opacity="0.8" fill-rule="evenodd" clip-rule="evenodd"
+											d="M12.0001 9.3586C11.5958 9.03512 11.1637 8.74478 10.7383 8.44818C9.89 7.85614 9.11408 7.81012 8.48107 8.76264C8.1256 9.2974 7.62798 9.32082 7.10766 9.08622C5.67324 8.43991 4.56559 7.44411 3.91677 5.99537C3.62976 5.35441 3.63354 4.77976 4.30506 4.32642C4.6606 4.08668 5.01879 3.80299 4.99015 3.27913C4.95275 2.59607 3.28374 0.313367 2.62464 0.0724377C2.35191 -0.0272744 2.08031 -0.0207851 1.80284 0.0718776C0.257377 0.588325 -0.382755 1.85131 0.230293 3.34676C2.0592 7.80834 5.27776 10.9143 9.7083 12.8101C9.9609 12.918 10.2415 12.9612 10.3836 12.9999C11.3923 13.01 12.5739 12.0443 12.9152 11.0859C13.2437 10.1639 12.5494 9.79794 12.0001 9.3586Z"
+											fill="white" />
+									</svg>
+		
+								</span>
+								+371 200 04 510
+							</a></li>
+						<li class="contacts-list__item"><a class="link-white" href="mailto:customers@millmax.eu">
+								<span class="contacts-list__icon contacts-list__icon_email">
+									<svg width="15" height="11" viewBox="0 0 15 11" fill="none"
+										xmlns="http://www.w3.org/2000/svg">
+										<path opacity="0.8"
+											d="M15 3.54688V9.75C15 10.0938 14.8689 10.388 14.6066 10.6328C14.3443 10.8776 14.029 11 13.6607 11H1.33929C0.970982 11 0.655692 10.8776 0.393415 10.6328C0.131138 10.388 0 10.0938 0 9.75V3.54688C0.245536 3.80208 0.527344 4.02864 0.845424 4.22657C2.86552 5.50781 4.25223 6.40625 5.00557 6.92187C5.32366 7.14062 5.58175 7.31119 5.77985 7.43359C5.97796 7.55599 6.24163 7.68099 6.57088 7.80859C6.90012 7.9362 7.20703 8 7.49162 8H7.50838C7.79297 8 8.09988 7.9362 8.42912 7.80859C8.75837 7.68099 9.02204 7.55599 9.22015 7.43359C9.41825 7.31119 9.67634 7.14062 9.99442 6.92187C10.9431 6.28125 12.3326 5.38281 14.163 4.22657C14.481 4.02344 14.76 3.79688 15 3.54688ZM15 1.25C15 1.66146 14.8633 2.05469 14.5898 2.42969C14.3164 2.80469 13.976 3.125 13.5686 3.39063C11.4704 4.75 10.1646 5.59636 9.65122 5.92969C9.59539 5.96617 9.47681 6.04559 9.29548 6.16797C9.11412 6.29037 8.96345 6.38932 8.84348 6.46484C8.72349 6.54036 8.5784 6.625 8.4082 6.71875C8.238 6.8125 8.07757 6.88281 7.9269 6.92969C7.77622 6.97659 7.63672 7.00004 7.50838 7.00004H7.49162C7.36328 7.00004 7.22378 6.97659 7.0731 6.92969C6.92243 6.88279 6.762 6.81248 6.5918 6.71875C6.4216 6.625 6.27651 6.54036 6.15653 6.46484C6.03655 6.38932 5.88588 6.29036 5.70452 6.16797C5.52316 6.04557 5.40457 5.96614 5.34877 5.92969C4.84096 5.59636 4.10993 5.1211 3.15569 4.50391C2.20145 3.88672 1.62946 3.51562 1.43974 3.39063C1.09375 3.17188 0.767299 2.87109 0.46038 2.48828C0.15346 2.10546 0 1.75 0 1.42188C0 1.01563 0.115793 0.677083 0.347378 0.406245C0.578963 0.135415 0.909599 0 1.33929 0H13.6607C14.0234 0 14.3373 0.122395 14.6024 0.367185C14.8675 0.611975 15 0.906247 15 1.25Z"
+											fill="white" />
+									</svg>
+		
+		
+								</span>
+								<u>customers@millmax.eu</u>
+							</a></li>
+						<li class="contacts-list__item"><a class="link-white" href="">
+								<span class="contacts-list__icon contacts-list__icon_address">
+									<svg width="11" height="15" viewBox="0 0 11 15" fill="none"
+										xmlns="http://www.w3.org/2000/svg">
+										<path opacity="0.8" fill-rule="evenodd" clip-rule="evenodd"
+											d="M2.95017 10.751C2.84063 10.6241 2.7261 10.4913 2.60526 10.3497C2.56692 10.3048 2.52826 10.2595 2.48935 10.214C1.3531 8.88452 0 7.30131 0 5.46437C0 3.56451 1.15789 0.307617 5.5 0.307617C9.8421 0.307617 11 3.56451 11 5.46437C11 7.30021 10.0001 8.47058 8.54823 10.17C8.4976 10.2292 8.44643 10.2891 8.39474 10.3497C8.2739 10.4913 8.15938 10.6241 8.04984 10.751C7.1097 11.8407 6.53706 12.5045 5.5 14.6922C4.46294 12.5045 3.8903 11.8407 2.95017 10.751ZM5.5 7.07685C6.66829 7.07685 7.61538 6.12976 7.61538 4.96146C7.61538 3.79317 6.66829 2.84608 5.5 2.84608C4.33171 2.84608 3.38462 3.79317 3.38462 4.96146C3.38462 6.12976 4.33171 7.07685 5.5 7.07685Z"
+											fill="white" />
+									</svg>
+		
+		
+								</span>
+								Šaltinio g. 11, Kavarskas 29260, Литва
+		
+							</a></li>
+		
+					</ul>
+		
+					<ul class="footer__privacy-list">
+						<li><a href="" class="link-white">
+								<u>
+									Политика конфиденциальности
+								</u>
+							</a></li>
+						<li><a href="" class="link-white">
+								<u>
+									Пользовательское соглашение
+								</u>
+							</a></li>
+					</ul>
+		
+				</div>
+			</div>
+		</footer>
+		
+		<div class="cookie">
+			<div class="cookie__content">
+				<div class="cookie__text">
+					<p>
+						Продолжая использовать наш сайт, вы даете согласие на обработку файлов cookie, которые помогают ему корректно работать и хранить данные.
+					</p>
+				</div>
+				<button class="cookie__button button button_gray">
+					Согласиться
+				</button>
+				
+			</div>
+		</div>
+	</div>
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+	<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+	<script src="js/main.js"></script>
+
+	<script>
+		AOS.init();
+	  </script>
+
+</body>
+
+</html>
