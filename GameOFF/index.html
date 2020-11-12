@@ -201,7 +201,7 @@
 		
 					<ul class="section6__list list-desc">
 						<li class="list-desc__item">
-							<div class="list-desc__img list-desc__img_l">
+							<div data-aos="fade-right" class="list-desc__img list-desc__img_l">
 								<img src="img/work_1.jpg" alt="">
 							</div>
 							<div class="list-desc__text">
@@ -209,7 +209,7 @@
 							</div>
 						</li>
 						<li class="list-desc__item">
-							<div class="list-desc__img list-desc__img_r">
+							<div data-aos="fade-left" class="list-desc__img list-desc__img_r">
 								<img src="img/work_2.jpg" alt="">
 							</div>
 							<div class="list-desc__text">
@@ -217,7 +217,7 @@
 							</div>
 						</li>
 						<li class="list-desc__item">
-							<div class="list-desc__img list-desc__img_l">
+							<div data-aos="fade-right" class="list-desc__img list-desc__img_l">
 								<img src="img/work_3.jpg" alt="">
 							</div>
 							<div class="list-desc__text">
@@ -354,9 +354,7 @@
 								них штормило знатно, было жалко на него смотреть. Он неделю помучился, но теперь к своим
 								танчикам даже не притрагивается.
 							</div>
-							<button class="slide__button button button_b open_ip_js">
-								Добавить комментарий
-							</button>
+						
 		
 						</div>
 		
@@ -415,9 +413,7 @@
 								спокойна, что он вырастит настоящим мужчиной. Советую всем мамам мальчиков
 		
 							</div>
-							<button class="slide__button button button_b open_ip_js">
-								Добавить комментарий
-							</button>
+						
 		
 						</div>
 		
@@ -476,9 +472,7 @@
 								голова. Я же не садюга, поэтому мне хватило 7-8 таких эпизодов, чтобы закинуть свою плойку на
 								антресоль.
 							</div>
-							<button class="slide__button button button_b open_ip_js">
-								Добавить комментарий
-							</button>
+						
 		
 						</div>
 		
@@ -535,9 +529,7 @@
 								плохо, пришлось ему подсказать. Больше не играет.
 		
 							</div>
-							<button class="slide__button button button_b open_ip_js">
-								Добавить комментарий
-							</button>
+						
 		
 						</div>
 		
@@ -585,9 +577,7 @@
 								выходных.
 		
 							</div>
-							<button class="slide__button button button_b open_ip_js">
-								Добавить комментарий
-							</button>
+						
 		
 						</div>
 		
@@ -644,13 +634,19 @@
 								плохо.Было тяжело наблюдать, зато теперь все хорошо
 		
 							</div>
-							<button class="slide__button button button_b open_ip_js">
-								Добавить комментарий
-							</button>
+						
 		
 						</div>
 		
 					</div>
+				</div>
+			</div>
+		
+			<div class="container">
+				<div class="slider-section__button-block">
+					<button id="comment_button_js" class="slide__button button button_b open_ip_js">
+						Добавить комментарий
+					</button>
 				</div>
 			</div>
 		
@@ -689,13 +685,13 @@
 		
 						<div class="form__content">
 							<div class="form__input-wrap input-wrapper">
-								<input class="input" type="text" placeholder="Имя">
-								<label for="">error text</label>
+								<input id="input1" name="name" class="input " type="text" placeholder="Имя">
+								<label for="input1">error text  </label>
 							</div>
 		
 							<div class="form__input-wrap input-wrapper">
-								<input class="input" type="text" placeholder="Телефон">
-								<label for="">error text</label>
+								<input id="input2" name="phone" class="input " type="text" placeholder="Телефон">
+								<label for="input2">error text  </label>
 							</div>
 		
 							<div class="form__button-wrap ">
