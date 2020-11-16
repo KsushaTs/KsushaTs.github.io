@@ -355,7 +355,7 @@
 						Оставьте адрес вашей электронной почты.
 					</p>
 					<form class="section-mail__form mail-form form" action="">
-						<div class="mail-form__group form__group">
+						<div class="mail-form__group form__group input-wrapper">
 							<input class="mail-form__input form__input" type="text" placeholder="E-mail">
 							<button type="submit" class="mail-form__button button button_orange">
 								<div class="button__content">
@@ -526,16 +526,19 @@
 					<div class="text">
 						Отправьте заявку или задайте вопрос
 					</div>
-					<div class="contacts-form__input-wrap ">
+					<div class="contacts-form__input-wrap input-wrapper">
 						<input class="form__input" type="text" placeholder="Имя">
+						<label for="">
+							Неверный формат данных. Укажите корректный электронный адрес или телефонный номер в международном формате.
+						</label>
 					</div>
-					<div class="contacts-form__input-wrap ">
+					<div class="contacts-form__input-wrap input-wrapper">
 						<input class="form__input" type="text" placeholder="Компания">
 					</div>
-					<div class="contacts-form__input-wrap ">
+					<div class="contacts-form__input-wrap input-wrapper">
 						<input class="form__input" type="text" placeholder="Контакт">
 					</div>
-					<div class="contacts-form__textarea-wrap ">
+					<div class="contacts-form__textarea-wrap input-wrapper">
 						<textarea rows="2" class="form__textarea" name="" id=""  placeholder="Сообщение"></textarea>
 					</div>
 	
