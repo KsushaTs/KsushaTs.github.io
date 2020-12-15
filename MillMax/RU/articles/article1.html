@@ -11,12 +11,14 @@
 
 	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap" rel="stylesheet">
 
-	<link rel="stylesheet" href="/libs/pagination/pagination.css">
+	<link rel="stylesheet" href="/libs/slick/slick.css">
 
 	<link rel="stylesheet" href="/css/main.css">
 </head>
 
-<body id="articles">
+<body id="article1">
+
+	
 
 	<header class="header-mob">
 
@@ -24,7 +26,7 @@
 
 			<div class="header-mob__content">
 
-				<a rel="alternate" hreflang="lv" href="/LV/" class="logo header-mob__logo">
+				<a rel="alternate" hreflang="ru" href="/RU/" class="logo header-mob__logo">
 
 					<svg width="111" height="23" viewBox="0 0 111 23" fill="none" xmlns="http://www.w3.org/2000/svg">
 
@@ -84,7 +86,7 @@
 
 			<div class="header__content">
 
-				<a rel="alternate" hreflang="lv" href="/LV/" class="logo header__logo">
+				<a rel="alternate" hreflang="ru" href="/RU/" class="logo header__logo">
 
 				
 
@@ -117,56 +119,67 @@
 				<nav class="header__nav">
 
 					<ul class="header__menu menu">
+	
+						<li class="menu__item"><a rel="alternate" hreflang="ru" href="/RU/laboratory.html" data-page="laboratory" class="menu__link link-white">
 
-						<li class="menu__item"><a rel="alternate" hreflang="lv" href="/LV/laboratory.html"
-								data-page="laboratory" class="menu__link link-white">
+							Лаборатория
 
-								Laboratorija
+						</a></li>
 
-							</a></li>
+						<li class="menu__item"><a rel="alternate" hreflang="ru" href="/RU/production.html"  data-page="production" class="menu__link link-white">
 
-						<li class="menu__item"><a rel="alternate" hreflang="lv" href="/LV/production.html"
-								data-page="production" class="menu__link link-white">
+							Производство
 
-								Produkcija
+						</a></li>
 
-							</a></li>
+						<li class="menu__item"><a rel="alternate" hreflang="ru" href="/RU/trademarks.html" data-page="trademarks" class="menu__link link-white">
 
-						<li class="menu__item"><a rel="alternate" hreflang="lv" href="/LV/trademarks.html"
-								data-page="trademarks" class="menu__link link-white">
+							Товарные знаки
 
-								 Preču zīmes
+						</a></li>
 
-							</a></li>
+						
 
+						<li class="menu__item"><a rel="alternate" hreflang="ru" href="/RU/#contacts"  class="menu__link link-white">
 
+							Контакты
 
-						<li class="menu__item"><a rel="alternate" hreflang="lv" href="/LV/#contacts"
-								class="menu__link link-white">
-
-								Kontakti
-
-							</a></li>
+						</a></li>
 
 					</ul>
 
 	
 
 					<div class="header__lang lang dropdown">
+
 						<div class="lang__current dropdown-toggle link-white">
-							  Lv
+
+							Ru
+
 						</div>
+
 						<ul class="lang__list dropdown-menu">
-							<li class="lang__list-item"><a rel="alternate" hreflang="en" href="/articles.html" class="link-white">
-									En
-								</a></li>
-							<li class="lang__list-item"><a rel="alternate" hreflang="ru" href="/RU/articles.html" class="link-white">
-								Ru
-								</a></li>
-							<li class="lang__list-item"><a rel="alternate" hreflang="es" href="/ES/articles.html" class="link-white">
-									Es
-								</a></li>
+
+							<li class="lang__list-item"><a rel="alternate" hreflang="en" href="/articles/article1.html" class="link-white">
+
+								En
+
+							</a></li>
+
+							<li class="lang__list-item"><a rel="alternate" hreflang="lv" href="/LV/articles/article1.html" class="link-white">
+
+								Lv
+
+							</a></li>
+
+							<li class="lang__list-item"><a rel="alternate" hreflang="es" href="/ES/articles/article1.html" class="link-white">
+
+								Es
+
+							</a></li>
+
 						</ul>
+
 					</div>
 
 				</nav>
@@ -180,72 +193,407 @@
 		</div>
 
 	</header>
-	<div class="page articles">
-	
+	<section class="article-page page">
 		<div class="container">
-			<div id="pagination-container" class=" articles__content">
-				<h2 class="page__title">
-					Cтатьи
+			<div class="article-page__content">
+				<div class="article-page__breadcrumb">
+					<a rel="alternate" hreflang="ru" href="/RU/articles.html">Все статьи</a>
+				</div>
+				<h2 class="article-page__title">
+					Какой должна быть упаковка БАДа
 				</h2>
+				<time class="page__date article-page__date" datetime="">
+					20 октябрь, 2020
+				</time>
+				<div class="page__text-block">
+					<p class="page__text ">
+						Производство диетических добавок и косметики — комплексный процесс, каждый этап которого влияет на
+						продажи. Но часто при создании продукта основной упор делается на состав и стоимость производства.
+						На упаковку тратится гораздо меньше времени и денег.
 	
-				<div id="data-container" class="articles__list articles-list">
-					
+					</p>
+					<p class="page__text ">
+						Однако именно внешний вид товара во многом определяет интерес покупателей. Современных людей сложно
+						удивить уникальным составом и wow-компонентами. Чтобы привлечь их внимание, нужно продать не просто
+						биодобавку или крем. И даже не результат их действия. Имидж, престиж, уверенность, положительные
+						эмоции, необычные ощущения — именно они действительно ценятся на рынке.
+					</p>
 				</div>
 	
-				<template id="tmpl">
+				<h3 class="page__subtitle">
+					Значение упаковки
+				</h3>
+				<p class="page__text ">
+					Упаковка — важная часть визуальной составляющей вашего бренда. Ведь именно ее потребитель видит в первую
+					очередь.
 	
-					<article class="articles-list__article article">
-						<a rel="alternate" hreflang="lv" href="/LV/articles/article1.html" class="article__link">
-							<h3 class="page__subtitle article__subtitle">
-								Какой должна быть упаковка БАДа
-							</h3>
-							<p class="page__text article__text">
-								Производство диетических добавок и косметики — комплексный процесс, каждый этап которого
-								влияет на продажи. Но часто при создании продукта основной упор делается на состав и
-								стоимость производства...
-							</p>
-							<time class="page__date" datetime="">
-								20 октябрь, 2020
-							</time>
-						</a>
-					</article>
-					<article class="articles-list__article article">
-						<a rel="alternate" hreflang="lv" href="/LV/articles/article2.html" class="article__link">
-							<h3 class="page__subtitle article__subtitle">
-								Как завоевать доверие потребителей
-							</h3>
-							<p class="page__text article__text">
-								Производство бадов — это огромный сегмент рынка с высокой конкуренцией и постоянно
-								меняющимися условиями. Чтобы поддерживать продажи вашей биодобавки на нужном уровне, вам
-								придется постоянно бороться за покупателей...
-							</p>
-							<time class="page__date" datetime="">
-								20 октябрь, 2020
-							</time>
-						</a>
-					</article>
-
-					<article class="articles-list__article article">
-						<a rel="alternate" hreflang="lv" href="/LV/articles/article3.html" class="article__link">
-							<h3 class="page__subtitle article__subtitle">
-								Зачем регистрировать торговую марку в ЕС?
-							</h3>
-							<p class="page__text article__text">
-								Свидетельство о регистрации ТМ можно сравнить с паспортом — оно подтверждает существование вашей торговой марки, описывает характеристики, закрепляет права на нее в пределах одной или нескольких стран...
-							</p>
-							<time class="page__date" datetime="">
-								20 октябрь, 2020
-							</time>
-						</a>
-					</article>
-				
+				</p>
+				<p class="page__text ">
+					Она способна передать любые посылы, которые вы хотите донести. Одна из главных ее задач — выделить товар
+					на фоне других, ведь конкуренция в производстве пищевых добавок и продуктов сейчас высока.
 	
-				</template>
+				</p>
+				<p class="page__text ">
+					Сравните, насколько по-разному воспринимаются средства одной формы и назначения в зависимости от
+					дизайна.
+				</p>
+			</div>
+		</div>
+	
+		<div class="article-page__container">
+			<div class="article-page__slider-content">
+				<div class="article-page__slider slider">
+					<div class="slider__slide">
+						<div class="slider__slide-img">
+							<img src="/img/articles/1/1.png" alt="">
+						</div>
+					</div>
+					<div class="slider__slide">
+						<div class="slider__slide-img">
+							<img src="/img/articles/1/2.png" alt="">
+						</div>
+					</div>
+					<div class="slider__slide">
+						<div class="slider__slide-img">
+							<img src="/img/articles/1/3.png" alt="">
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	
+		<div class="container">
+			<div class="article-page__content">
+				<p class="page__text ">
+					Это работает и если речь идет об одинаковых товарах или одной линейке.
+				</p>
+			</div>
+		</div>
+		<div class="article-page__container">
+			<div class="article-page__slider-content">
+				<div class="article-page__slider slider">
+					<div class="slider__slide">
+						<div class="slider__slide-img">
+							<img src="/img/articles/1/4.png" alt="">
+						</div>
+					</div>
+					<div class="slider__slide">
+						<div class="slider__slide-img">
+							<img src="/img/articles/1/5.png" alt="">
+						</div>
+					</div>
+					
+				</div>
+			</div>
+		</div>
+	
+		<div class="container">
+			<div class="article-page__content">
+				<p class="page__text ">
+					Даже незначительные отличия, например цвет, влияют на восприятие.
+				</p>
+			</div>
+		</div>
+		<div class="article-page__container">
+			<div class="article-page__slider-content">
+				<div class="article-page__slider slider">
+					<div class="slider__slide">
+						<div class="slider__slide-img">
+							<img src="/img/articles/1/6.png" alt="">
+						</div>
+					</div>
+					<div class="slider__slide">
+						<div class="slider__slide-img">
+							<img src="/img/articles/1/7.png" alt="">
+						</div>
+					</div>
+					
+				</div>
+			</div>
+		</div>
+	
+		<div class="container">
+			<div class="article-page__content">
+				<div class="page__text-block">
+					<p class="page__text ">
+						Если упаковка создает ложное представление или неверно передает характеристики и свойства товара — на него обратят внимание совсем не те люди, которых вы хотите привлечь. Если ничем не выделяется — товар будет трудно продвигать на рынке, каким бы необычным не был его состав.
+	
+					</p>
+					<p class="page__text ">
+						Правильная упаковка, ориентированная на вашу целевую аудиторию, вызовет доверие покупателей и сформирует целостный образ бренда. 
+	
+					</p>
+					<p class="page__text ">
+						Поэтому так важно продумывать дизайн еще на этапе разработки идеи продукта. Ведь эта работа иногда занимает не один месяц. Неправильный подход может обернуться серьезными тратами на доработку и даже остановкой производства из-за низкого спроса.
+	
+					</p>
+				</div>
+	
+				<h3 class="page__subtitle">
+					Какой должна быть упаковка
+				</h3>
+				<p class="page__text ">
+					Опытные производители косметики и пищевых добавок отлично знают, что красивая и приятная на ощупь упаковка не обязательно гарантирует успех на рынке. Ведь покупатели при выборе ориентируются не только на субъективное «нравится — не нравится». Играет роль то, какие она вызывает ассоциации, доносит ли нужную информацию. И, что особо важно — насколько соответствует ожиданиям. 
+	
+				</p>
+				<p class="page__text ">
+					Например, одна из самых популярных добавок — пивные дрожжи — выпускается в разной упаковке. Но самая популярная — недорогие ПЭТ банки. Не только из-за цены, но и потому, что многим покупателям просто не придет в голову искать ее на полках с элитными биодобавками в красивых стеклянных флаконах. 
+				</p>
 	
 			</div>
 		</div>
-	</div>
-
+	
+		<div class="article-page__container">
+			<div class="article-page__slider-content">
+				<div class="article-page__slider slider">
+					<div class="slider__slide">
+						<div class="slider__slide-img">
+							<img src="/img/articles/1/8.png" alt="">
+						</div>
+					</div>
+					<div class="slider__slide">
+						<div class="slider__slide-img">
+							<img src="/img/articles/1/9.png" alt="">
+						</div>
+					</div>
+					<div class="slider__slide">
+						<div class="slider__slide-img">
+							<img src="/img/articles/1/10.png" alt="">
+						</div>
+					</div>
+					<div class="slider__slide">
+						<div class="slider__slide-img">
+							<img src="/img/articles/1/11.png" alt="">
+						</div>
+					</div>
+					
+				</div>
+			</div>
+		</div>
+	
+		<div class="container">
+			<div class="article-page__content">
+				<p class="page__text ">
+					При разработке дизайна важно четко понимать, что и кому вы продаете. А также определиться, какой образ вы хотите создать, какие мысли донести, какие эмоции вызвать. Яркость, строгость, легкость, монументальность, воодушевление, прилив сил, бодрость, спокойствие — вариантов множество — нужно выбрать подходящие именно вам и вашим покупателям. 
+	
+				</p>
+				<p class="page__text ">
+					Правильная упаковка должна:
+	
+				</p>
+				<ul class="page__list">
+	
+					<li>обращать на себя внимание,</li>
+					<li>вписываться в концепцию бренда,</li>
+					<li>надежно защищать товар,</li>
+					<li>быть удобной для покупателя,</li>
+					<li>сообщать основную информацию,</li>
+					<li>транслировать свойства продукта,</li>
+					<li>вызывать нужные вам ассоциации и эмоции,</li>
+					<li>отражать ценовое позиционирование,</li>
+					<li>соответствовать по стоимости товару,</li>
+					<li>стимулировать повторные продажи.</li>
+	
+				</ul>
+				<div class="page__text-block">
+					<p class="page__text ">
+						Чтобы создать хорошую упаковку, необходимо досконально изучить и проанализировать продукт, потенциальных покупателей и конкурентов, последние тренды в дизайне, а также возможности производителей. Поэтому в разработке часто задействованы не только дизайнеры и маркетологи, но и художники, фотографы, технологи, представители производственных цехов и отдела продаж. Даже если дизайн идеален, он должен пройти тесты на фокус-группах, состоящих из представителей целевой аудитории. И лишь после этого можно выводить товар на рынок — чтобы окончательно убедиться, что упаковка работает.
+	
+					</p>
+					<p class="page__text ">
+						Также важно помнить, что изготовление биодобавок, как и производство пищевых продуктов или лекарственных средств, предъявляет особые требования к упаковочным материалам. Они должны быть сертифицированы, соответствовать современным экологическим и санитарно-эпидемиологическим нормам.
+	
+					</p>
+					
+				</div>
+	
+				<h3 class="page__subtitle">
+					Особенности упаковки для БАД
+				</h3>
+				<p class="page__text ">
+					Производство косметических средств и пищевых добавок тесно пересекается с фармацевтической отраслью. Но в рекламе бадов есть целый ряд ограничений — например, нельзя писать, что они «лечат» или указывать заболевания, при которых показано их применение. 
+	
+				</p>
+				<p class="page__text ">
+					Однако многие приемы и принципы фармамаркетинга все же можно применять. Например, схематично изображать, для чего предназначена добавка или использовать нарочито строгий дизайн — такие упаковки, как правило, вызывают больше доверия.
+	
+				</p>
+	
+			</div>
+		</div>
+	
+		<div class="article-page__container">
+			<div class="article-page__slider-content">
+				<div class="article-page__slider slider">
+					<div class="slider__slide">
+						<div class="slider__slide-img">
+							<img src="/img/articles/1/12.png" alt="">
+						</div>
+					</div>
+					<div class="slider__slide">
+						<div class="slider__slide-img">
+							<img src="/img/articles/1/13.png" alt="">
+						</div>
+					</div>
+					<div class="slider__slide">
+						<div class="slider__slide-img">
+							<img src="/img/articles/1/14.png" alt="">
+						</div>
+					</div>
+					
+				</div>
+			</div>
+		</div>
+	
+		<div class="container">
+			<div class="article-page__content">
+				<p class="page__text ">
+					Встречаются и случаи откровенной мимикрии под существующие препараты. В примере на первом фото — зарегистрированное как лекарственное средство, на втором и третьем — биодобавки, которые явно пытаются быть на него похожими.
+				</p>
+			</div>
+		</div>
+		<div class="article-page__container">
+			<div class="article-page__slider-content">
+				<div class="article-page__slider slider">
+					<div class="slider__slide">
+						<div class="slider__slide-img">
+							<img src="/img/articles/1/15.png" alt="">
+						</div>
+					</div>
+					<div class="slider__slide">
+						<div class="slider__slide-img">
+							<img src="/img/articles/1/16.png" alt="">
+						</div>
+					</div>
+					<div class="slider__slide">
+						<div class="slider__slide-img">
+							<img src="/img/articles/1/17.png" alt="">
+						</div>
+					</div>
+					
+				</div>
+			</div>
+		</div>
+	
+		<div class="container">
+			<div class="article-page__content">
+				<p class="page__text ">
+					Однако завоевать доверие и интерес покупателей можно разными средствами: четким позиционированием, ярким оформлением, необычной формой продукта, демонстрацией уникальных компонентов. 
+	
+				</p>
+				<p class="page__text ">
+					Яркость и энергичность ассоциируются со здоровым образом жизни. 
+	
+				</p>
+			</div>
+		</div>
+		<div class="article-page__container">
+			<div class="article-page__slider-content">
+				<div class="article-page__slider slider">
+					<div class="slider__slide">
+						<div class="slider__slide-img">
+							<img src="/img/articles/1/18.png" alt="">
+						</div>
+					</div>
+					<div class="slider__slide">
+						<div class="slider__slide-img">
+							<img src="/img/articles/1/19.png" alt="">
+						</div>
+					</div>
+					
+				</div>
+			</div>
+		</div>
+	
+		<div class="container">
+			<div class="article-page__content">
+				<p class="page__text ">
+					Строгая упаковка белого цвета создает ощущение изысканности и подчеркивает форму продукта, необычную для «похудалок» — капли.
+	
+				</p>			
+			</div>
+		</div>
+	
+		<div class="article-page__container">
+			<div class="article-page__slider-content">
+				<div class="article-page__slider slider">
+					<div class="slider__slide">
+						<div class="slider__slide-img">
+							<img src="/img/articles/1/20.png" alt="">
+						</div>
+					</div>
+					<div class="slider__slide">
+						<div class="slider__slide-img">
+							<img src="/img/articles/1/21.png" alt="">
+						</div>
+					</div>
+					<div class="slider__slide">
+						<div class="slider__slide-img">
+							<img src="/img/articles/1/22.png" alt="">
+						</div>
+					</div>
+					
+				</div>
+			</div>
+		</div>
+	
+		<div class="container">
+			<div class="article-page__content">
+				<p class="page__text ">
+					Общие для всей линейки элементы дизайна сделают товар узнаваемым для потребителей. 
+	
+				</p>			
+			</div>
+		</div>
+	
+		<div class="article-page__container">
+			<div class="article-page__slider-content">
+				<div class="article-page__slider slider">
+					<div class="slider__slide">
+						<div class="slider__slide-img">
+							<img src="/img/articles/1/23.png" alt="">
+						</div>
+					</div>
+					<div class="slider__slide">
+						<div class="slider__slide-img">
+							<img src="/img/articles/1/24.png" alt="">
+						</div>
+					</div>
+					<div class="slider__slide">
+						<div class="slider__slide-img">
+							<img src="/img/articles/1/25.png" alt="">
+						</div>
+					</div>
+					
+				</div>
+			</div>
+		</div>
+	
+		<div class="container">
+			<div class="article-page__content">
+				<div class="page__text-block">
+					<p class="page__text ">
+						Как правило, срок жизни бада на рынке — несколько лет. После — ребрендинг или выпуск очередного продукта в линейке, ведь людям всегда интересно новое и необычное. Важно постоянно проводить мониторинг, искать новые идеи для продуктов, подходы к их упаковке и продвижению. И как можно быстрее выводить их на рынок, пока этого не сделали конкуренты. 
+	
+					</p>
+					<p class="page__text ">
+						Поэтому MillMax изначально был задуман как предприятие полного цикла со своими цехами производства упаковки и фасовки. 
+	
+	
+					</p>
+					<p class="page__text ">
+						Поскольку производство бадов и кремов — наша специализация, мы отлично знаем состояние рынка и его тенденции: от интересных потребителям wow-компонентов до экологических стандартов, находящихся в разработке. 
+					</p>
+					<p class="page__text ">
+						Заказывая упаковку у нас — вы можете быть уверены, что она не только надежно сохраняет товар и соответствует современным стандартам, но и привлекает внимание ваших потребителей. 
+	
+					</p>
+				</div>		
+			</div>
+		</div>
+	
+	</section>
+		
 	<footer class="footer">
 		
 		<div class="container">
@@ -256,7 +604,7 @@
 	
 				<div class="footer__block footer__block_1">
 	
-					<a rel="alternate" hreflang="lv" href="/LV/articles.html" class="footer__title">
+					<a rel="alternate" hreflang="ru" href="/RU/articles.html" class="footer__title">
 	
 						Статьи
 	
@@ -266,7 +614,7 @@
 	
 						<li>
 	
-							<a rel="alternate" hreflang="lv" href="/LV/articles/article1.html" class="link-white">
+							<a rel="alternate" hreflang="ru" href="/RU/articles/article1.html" class="link-white">
 	
 								<u>
 	
@@ -281,7 +629,7 @@
 	
 						<li>
 	
-							<a rel="alternate" hreflang="lv" href="/LV/articles/article2.html" class="link-white">
+							<a rel="alternate" hreflang="ru" href="/RU/articles/article2.html" class="link-white">
 	
 								<u>
 	
@@ -298,27 +646,27 @@
 				<div class="footer__block footer__block_2">
 	
 					<ul class="footer__list footer__list_privacy">
-
+	
 						<li><a href="" class="link-white">
-
+	
 								<u>
-
-									Privātuma politika
-
+	
+									Политика конфиденциальности
+	
 								</u>
-
+	
 							</a></li>
-
+	
 						<li><a href="" class="link-white">
-
+	
 								<u>
-
-									Lietošanas noteikumi
-
+	
+									Пользовательское соглашение
+	
 								</u>
-
+	
 							</a></li>
-
+	
 					</ul>
 	
 	
@@ -421,7 +769,7 @@
 	
 	
 	
-						<a class="footer__logo" rel="alternate" hreflang="lv" href="/LV/">
+						<a class="footer__logo" rel="alternate" hreflang="ru" href="/RU/">
 	
 							<svg width="147" height="30" viewBox="0 0 147 30" fill="none"
 	
@@ -638,63 +986,40 @@
 		</div>
 	
 	</footer>
-
 	
-
 	<div class="cookie">
 		<div class="cookie__content">
 			<div class="cookie__text">
 				<p>
-
-					Turpinot izmantot mūsu vietni, Jūs piekrītat sīkdatņu apstrādei, kas palīdz tai pareizi darboties un
-					uzglabāt datus.
-
+					Продолжая использовать наш сайт, вы даете согласие на обработку файлов cookie, которые помогают ему корректно работать и хранить данные.
 				</p>
 			</div>
 			<button class="cookie__button button button_gray">
-				Piekrītu
+				Согласиться
 			</button>
-
+			
 		</div>
 	</div>
 
+	<div id="toTopButtonJs" class="to-top-button">
+
+		<svg width="21" height="35" viewBox="0 0 21 35" fill="none" xmlns="http://www.w3.org/2000/svg">
+
+			<path d="M10.5 34.1512C10.5 25.807 10.5 8.74417 10.5 1.2558" stroke="white" stroke-width="3"/>
+
+			<path d="M1.6748 10.0814L10.5004 2.05813L19.326 10.0814" stroke="white" stroke-width="3"/>
+
+			</svg>
+
+			
+
+	</div>
 
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 
+	<script src="/libs/slick/slick.min.js"></script>
+
 	<script src="/js/main.js"></script>
-
-
-	<script src="/libs/pagination/pagination.min.js"></script>
-
-	<script>
-		var tmpl = document.getElementById('tmpl');
-		var list = tmpl.content.querySelectorAll("article");
-
-		$('#pagination-container').pagination({
-			dataSource: function (done) {
-				var result = [];
-				for (var i = 0; i < list.length; i++) {
-					result.push(list[i].outerHTML);
-				}
-				done(result);
-			},
-			pageSize: 4,
-
-			callback: function (data, pagination) {
-				var html = simpleTemplating(data);
-				$('#data-container').html(html);
-			}
-		});
-
-		function simpleTemplating(data) {
-			var html = '<ul>';
-			$.each(data, function (index, item) {
-				html += '<li>' + item + '</li>';
-			});
-			html += '</ul>';
-			return html;
-		}
-	</script>
 
 </body>
 
