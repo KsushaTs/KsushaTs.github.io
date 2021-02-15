@@ -11,7 +11,7 @@
   </head>
   <body>
     <div class="wrapper" id="wrapper"> 
-      <header class="header">
+      <header class="header" id="mob_nav_js">
         <div class="container"> 
           <div class="header__content">
             <div class="logo header__logo"><a class="logo__link" href="/"><img src="img/logo.png" alt="" width="138" height="58"/></a></div>
@@ -23,7 +23,58 @@
                 <li class="menu__item"><a class="menu__link link_js" href="#socks">Носки</a></li>
                 <li class="menu__item"><a class="menu__link link_js" href="#tardigrade">Тихоходка</a></li>
               </ul>
+              <div class="header__block-soc">
+                <ul class="soc"> 
+                  <li class="soc__item"><a class="soc__link" href="">
+                      <svg width="21" height="21" viewbox="0 0 21 21" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M10.5 20.5C4.97715 20.5 0.5 16.0228 0.5 10.5C0.5 4.97715 4.97715 0.5 10.5 0.5C16.0228 0.5 20.5 4.97715 20.5 10.5C20.5 16.0228 16.0228 20.5 10.5 20.5ZM10.5 20.5V8.5C10.5 7.39543 11.3954 6.5 12.5 6.5H14M7 12.5H14" stroke="white"></path>
+                      </svg></a></li>
+                  <li class="soc__item"><a class="soc__link" href="">
+                      <svg width="21" height="21" viewbox="0 0 21 21" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M16 5.5H17M4.5 0.5H16.5C18.7091 0.5 20.5 2.29086 20.5 4.5V16.5C20.5 18.7091 18.7091 20.5 16.5 20.5H4.5C2.29086 20.5 0.5 18.7091 0.5 16.5V4.5C0.5 2.29086 2.29086 0.5 4.5 0.5ZM10.5 14.5C8.29086 14.5 6.5 12.7091 6.5 10.5C6.5 8.29086 8.29086 6.5 10.5 6.5C12.7091 6.5 14.5 8.29086 14.5 10.5C14.5 12.7091 12.7091 14.5 10.5 14.5Z" stroke="white"></path>
+                      </svg></a></li>
+                  <li class="soc__item"><a class="soc__link" href="">
+                      <svg width="21" height="21" viewbox="0 0 21 21" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M5.5 8V16M15.5 16V12C15.5 10.067 13.933 8.5 12 8.5C10.067 8.5 8.5 10.067 8.5 12V16V8M5 5.5H6M1.5 0.5H19.5C20.0523 0.5 20.5 0.947715 20.5 1.5V19.5C20.5 20.0523 20.0523 20.5 19.5 20.5H1.5C0.947716 20.5 0.5 20.0523 0.5 19.5V1.5C0.5 0.947716 0.947715 0.5 1.5 0.5Z" stroke="white"></path>
+                      </svg></a></li>
+                  <li class="soc__item"><a class="soc__link" href="">
+                      <svg width="21" height="19" viewbox="0 0 21 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M20.4691 1L20.968 0.966923C20.9547 0.766352 20.8226 0.593244 20.6327 0.5275C20.4427 0.461755 20.2319 0.516157 20.0974 0.665597L20.4691 1ZM19.5428 5.22701C19.5428 4.95086 19.3189 4.72701 19.0428 4.72701C18.7666 4.72701 18.5428 4.95086 18.5428 5.22701H19.5428ZM10.5 6.5V7H11V6.5H10.5ZM1.92637 1L2.39462 0.824676C2.32485 0.63834 2.15124 0.511104 1.95255 0.500686C1.75385 0.490268 1.56789 0.598651 1.47902 0.776669L1.92637 1ZM7.5 14L7.85383 14.3533C7.97619 14.2307 8.02642 14.0536 7.98661 13.885C7.94679 13.7165 7.8226 13.5806 7.65833 13.5257L7.5 14ZM0.5 16.7143V16.2143C0.279732 16.2143 0.0854109 16.3584 0.0215057 16.5692C-0.0423996 16.78 0.0391667 17.0078 0.222353 17.1301L0.5 16.7143ZM17.9515 2.39054L17.5806 2.72589L17.7608 2.92513L18.0264 2.88491L17.9515 2.39054ZM19.9702 1.03308C20.0446 2.15499 19.9783 2.86395 19.7838 3.41243C19.5929 3.95047 19.2609 4.38419 18.6968 4.9247L19.3887 5.64673C20.0033 5.0578 20.4605 4.4957 20.7262 3.74676C20.9882 3.00827 21.0458 2.13909 20.968 0.966923L19.9702 1.03308ZM19.5428 6.26785V5.28571H18.5428V6.26785H19.5428ZM19.5428 5.28571V5.22701H18.5428V5.28571H19.5428ZM10 5.5V6.5H11V5.5H10ZM14.8223 0.5C12.125 0.5 10 2.85065 10 5.5H11C11 3.35063 12.7282 1.5 14.8223 1.5V0.5ZM18.5428 6.26785C18.5428 12.5599 13.2624 18 7 18V19C13.8342 19 19.5428 13.0925 19.5428 6.26785H18.5428ZM1.45811 1.17532C2.22305 3.2183 5.10161 7 10.5 7V6C5.62855 6 3.05605 2.59122 2.39462 0.824676L1.45811 1.17532ZM1.47902 0.776669C0.00554863 3.72816 -0.242404 6.59715 0.775073 9.03207C1.79256 11.467 4.03467 13.3702 7.34167 14.4743L7.65833 13.5257C4.54668 12.4869 2.57561 10.7473 1.69776 8.64651C0.819895 6.54571 0.994452 3.98613 2.37372 1.22333L1.47902 0.776669ZM7.14617 13.6467C6.26646 14.5278 3.76165 16.2143 0.5 16.2143V17.2143C4.08491 17.2143 6.83174 15.377 7.85383 14.3533L7.14617 13.6467ZM18.3224 2.0552C17.4594 1.10084 16.2107 0.5 14.8223 0.5V1.5C15.916 1.5 16.8991 1.97214 17.5806 2.72589L18.3224 2.0552ZM18.0264 2.88491C19.0619 2.72808 20.0775 2.18292 20.8409 1.3344L20.0974 0.665597C19.4829 1.34872 18.6743 1.77537 17.8766 1.89618L18.0264 2.88491ZM0.222353 17.1301C2.47016 18.631 4.63313 19 7 19V18C4.75713 18 2.80895 17.6548 0.777647 16.2985L0.222353 17.1301Z" fill="white"></path>
+                      </svg></a></li>
+                  <li class="soc__item"><a class="soc__link" href="">
+                      <svg width="21" height="19" viewbox="0 0 21 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M20.5 1L0.5 8.14286L6.21429 11L14.7857 5.28571L9.07143 12.4286L17.6429 18.1429L20.5 1Z" stroke="white" stroke-linejoin="round"></path>
+                      </svg></a></li>
+                  <li class="soc__item"><a class="soc__link" href="">
+                      <svg width="27" height="20" viewbox="0 0 27 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M18.3403 18.1653L16.2581 15.4045C16.1423 15.2566 16.0488 15.1717 15.9832 15.1234L15.8799 15.1542L15.4054 17.3763L15.3259 17.8359C15.1919 18.3102 14.8988 18.7948 14.3015 18.9163L13.9345 18.9411H11.5271C7.24555 18.9411 3.37983 12.5456 0.673833 4.57791L0.654295 4.50325C0.562188 4.02457 0.516134 3.4932 0.739424 3.06576C0.996208 2.57244 1.48745 2.41435 2.00241 2.39824L5.70205 2.42459C5.93092 2.42606 6.13328 2.58269 6.19887 2.81251C7.03063 5.68018 8.05218 7.4324 9.30121 9.43055L9.3361 9.49496C9.47147 9.79358 9.75477 9.70868 9.90131 9.47154L9.99062 9.19487L9.99202 4.69355C9.99202 4.03189 9.70453 3.93821 9.00675 3.83427C8.68716 3.78597 8.48481 3.44782 8.5825 3.12577C8.91883 2.0074 10.0227 1.43503 11.5537 1.43503L12.9646 1.3999C14.1061 1.3999 15.1403 1.91371 15.1403 3.44489V9.36614L15.2407 9.42469C15.4277 9.4935 15.7948 9.50813 16.092 9.01921C17.3746 7.12207 18.8525 4.85604 19.0604 3.67179C19.0688 3.62348 19.0827 3.5781 19.1023 3.53419C19.3632 2.9589 20.0764 2.55341 20.3639 2.46119C20.4043 2.44801 20.4853 2.42313 20.5802 2.42313L24.4333 2.42606L24.672 2.42898C24.7627 2.44069 24.852 2.46119 24.9385 2.49339C25.1702 2.58122 25.3335 2.74078 25.4409 2.9223C25.6516 3.28241 25.6223 3.68643 25.6433 3.84745C25.6516 3.90161 25.6516 3.95724 25.6433 4.01286C25.2818 6.38429 22.6819 9.04263 21.5892 10.767C21.3086 11.1725 21.3045 11.4755 21.5654 11.8078L25.1925 16.5697C25.6112 17.1977 25.5888 17.8842 25.1437 18.3746C24.8534 18.6952 24.4319 18.8738 23.9867 18.928L23.5681 18.9411H19.7135L19.7819 18.9368C19.2753 19.007 18.8818 18.7874 18.5859 18.4756L18.3403 18.1653Z" stroke="white" stroke-linecap="round" stroke-linejoin="round"></path>
+                      </svg></a></li>
+                </ul>
+              </div><a class="header__button button" href="">Заказать</a>
             </nav>
+          </div>
+        </div>
+      </header>
+      <header class="header-mob">	
+        <div class="container"> 
+          <div class="header-mob__content">
+            <div class="logo header-mob__logo"><a class="logo__link" href="/"><img src="img/logo-mob.png" alt=""/></a></div>
+            <div class="burger" id="burger_js">
+              <div class="burger__item burger__item_open">
+                <svg width="30" height="19" viewbox="0 0 30 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <rect y="19" width="3" height="30" transform="rotate(-90 0 19)" fill="white"></rect>
+                  <rect x="-4.76837e-07" y="3" width="3" height="30" transform="rotate(-90 -4.76837e-07 3)" fill="white"></rect>
+                  <rect y="11" width="3" height="8" transform="rotate(-90 0 11)" fill="white"></rect>
+                  <rect x="12" y="11" width="3" height="18" transform="rotate(-90 12 11)" fill="white"></rect>
+                </svg>
+              </div>
+              <div class="burger__item burger__item_close">
+                <svg width="30" height="25" viewbox="0 0 30 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <rect x="3.33276" y="2.95407" width="3" height="30" transform="rotate(-45 3.33276 2.95407)" fill="white"></rect>
+                  <rect x="5.4541" y="24.1673" width="3" height="30" transform="rotate(-135 5.4541 24.1673)" fill="white"></rect>
+                </svg>
+              </div>
+            </div>
           </div>
         </div>
       </header>
@@ -53,7 +104,7 @@
             <div class="section1__block">
               <div class="section1__text">Твоя заявка на победу</div>
               <div class="section1__block-title">
-                <h1 class="section1__title text-bg-lg">Terra-Pack</h1>
+                <h1 class="section1__title"><span class="text-bg-lg">Terra-</span><span class="text-bg-lg">Pack</span></h1>
                 <div class="section1__img">
                   <picture>
                     <source srcset="img/main.webp" type="image/webp"/><img src="img/main.png" alt="" width="1552" height="1164"/>
@@ -73,9 +124,16 @@
               </picture><img class="section2__img-shadow section2__img-shadow_2" src="img/s2_shadow_2.svg" alt=""/>
             </div>
             <div class="section2__block section2__block_1">
-              <h2 class="section2__title title text-bg-lg">Бубен-ЦЫ арбитражника</h2>
-              <div class="section2__text text">
-                <p>Главный инструмент вебмастера – в эксклюзивном исполнении и с расширенным функционалом. Подходит как для неофитов, так и для уберпросветленных мегашаманов. Поднимает ментальную энергию (ЦЫ) с уровня абсолютного непонимания и паники (СЦЫ) до уровня профессионализма и полного спокойствия (НЕ&nbsp;-&nbsp;СЦЫ).</p>
+              <div class="section2__img-mob"> 
+                <picture>
+                  <source srcset="img/s2_mob.webp" type="image/webp"/><img src="img/s2_mob.png" alt=""/>
+                </picture>
+              </div>
+              <div class="section2__block-text">
+                <h2 class="section2__title title text-bg-lg">Бубен-ЦЫ арбитражника</h2>
+                <div class="section2__text text">
+                  <p>Главный инструмент вебмастера – в эксклюзивном исполнении и с расширенным функционалом. Подходит как для неофитов, так и для уберпросветленных мегашаманов. Поднимает ментальную энергию (ЦЫ) с уровня абсолютного непонимания и паники (СЦЫ) до уровня профессионализма и полного спокойствия (НЕ&nbsp;-&nbsp;СЦЫ).</p>
+                </div>
               </div>
             </div>
             <div class="section2__block section2__block_2">
@@ -99,67 +157,81 @@
               <div class="section3__img">
                 <picture>
                   <source srcset="img/s3.webp" type="image/webp"/><img src="img/s3.png" alt=""/>
-                </picture>
+                </picture><img class="section3__img-anim section3__img-anim_1" src="img/steam_1.png" alt=""/><img class="section3__img-anim section3__img-anim_2" src="img/steam_1.png" alt=""/>
               </div>
             </div>
-            <div class="section3__list list">
-              <div class="list__item-wrap">
-                <section class="list__item list__item_1">
-                  <div class="list__item-content">
-                    <div class="list__img list__img_1">
-                      <picture>
-                        <source srcset="img/item_1.webp" type="image/webp"/><img src="img/item_1.png" alt=""/>
-                      </picture>
-                    </div>
-                    <div class="list__block-text text list__block-text_1">
-                      <h3 class="list__title">Вкус шейва:</h3>
-                      <div class="list__subtitle">если хочется остренького.</div>
-                      <div class="list__text">По исследованиям диванных социологов и диетологов, сейчас именно он составляет основу питания в большинстве партнерских сетей.</div>
-                    </div>
+          </div>
+        </div>
+        <div class="section3__container"> 
+          <div class="section3__list list swiper-container slider">
+            <div class="list__item-wrap swiper-wrapper">
+              <section class="list__item swiper-slide list__item_1">
+                <div class="list__item-content">
+                  <div class="list__img list__img_1">
+                    <picture>
+                      <source srcset="img/item_1.webp" type="image/webp"/><img src="img/item_1.png" alt=""/>
+                    </picture>
                   </div>
-                </section>
-                <section class="list__item list__item_2">
-                  <div class="list__item-content">
-                    <div class="list__img list__img_2">
-                      <picture>
-                        <source srcset="img/item_2.webp" type="image/webp"/><img src="img/item_2.png" alt=""/>
-                      </picture>
-                    </div>
-                    <div class="list__block-text text list__block-text_2">
-                      <h3 class="list__title">Вкус мотивации:</h3>
-                      <div class="list__subtitle">напомнит, как работают на заводе.</div>
-                      <div class="list__text">Уникальная формула “с дымком” поможет тебе почувствовать непередаваемый вкус “нормальной работы, а не вот этой фигни, которой ты там занимаешься”.</div>
-                    </div>
+                  <div class="list__block-text text list__block-text_1">
+                    <h3 class="list__title">Вкус шейва:</h3>
+                    <div class="list__subtitle">если хочется остренького.</div>
+                    <div class="list__text">По исследованиям диванных социологов и диетологов, сейчас именно он составляет основу питания в большинстве партнерских сетей.</div>
                   </div>
-                </section>
-                <section class="list__item list__item_3">
-                  <div class="list__item-content">
-                    <div class="list__img list__img_3">
-                      <picture>
-                        <source srcset="img/item_3.webp" type="image/webp"/><img src="img/item_3.png" alt=""/>
-                      </picture>
-                    </div>
-                    <div class="list__block-text text list__block-text_3">
-                      <h3 class="list__title">Вкус креатива:</h3>
-                      <div class="list__subtitle">вдохновит на новые идеи.</div>
-                      <div class="list__text">Основа рецептуры разработана в Южной Корее – стране, символизирующей свободу от угнетения. Поэтому оригинальный продукт популярен у фрилансеров.</div>
-                    </div>
+                </div>
+              </section>
+              <section class="list__item swiper-slide list__item_2">
+                <div class="list__item-content">
+                  <div class="list__img list__img_2">
+                    <picture>
+                      <source srcset="img/item_2.webp" type="image/webp"/><img src="img/item_2.png" alt=""/>
+                    </picture>
                   </div>
-                </section>
-                <section class="list__item list__item_4">
-                  <div class="list__item-content">
-                    <div class="list__img list__img_4">
-                      <picture>
-                        <source srcset="img/item_4.webp" type="image/webp"/><img src="img/item_4.png" alt=""/>
-                      </picture>
-                    </div>
-                    <div class="list__block-text text list__block-text_4">
-                      <h3 class="list__title">Вкус апрува:</h3>
-                      <div class="list__subtitle">для тех, кто  хочет узнать, как это.</div>
-                      <div class="list__text">Содержит комплекс природных веществ, повышающий настроение и чувство собственной важности до уровня божечки.</div>
-                    </div>
+                  <div class="list__block-text text list__block-text_2">
+                    <h3 class="list__title">Вкус мотивации:</h3>
+                    <div class="list__subtitle">напомнит, как работают на заводе.</div>
+                    <div class="list__text">Уникальная формула “с дымком” поможет тебе почувствовать непередаваемый вкус “нормальной работы, а не вот этой фигни, которой ты там занимаешься”.</div>
                   </div>
-                </section>
+                </div>
+              </section>
+              <section class="list__item swiper-slide list__item_3">
+                <div class="list__item-content">
+                  <div class="list__img list__img_3">
+                    <picture>
+                      <source srcset="img/item_3.webp" type="image/webp"/><img src="img/item_3.png" alt=""/>
+                    </picture>
+                  </div>
+                  <div class="list__block-text text list__block-text_3">
+                    <h3 class="list__title">Вкус креатива:</h3>
+                    <div class="list__subtitle">вдохновит на новые идеи.</div>
+                    <div class="list__text">Основа рецептуры разработана в Южной Корее – стране, символизирующей свободу от угнетения. Поэтому оригинальный продукт популярен у фрилансеров.</div>
+                  </div>
+                </div>
+              </section>
+              <section class="list__item swiper-slide list__item_4">
+                <div class="list__item-content">
+                  <div class="list__img list__img_4">
+                    <picture>
+                      <source srcset="img/item_4.webp" type="image/webp"/><img src="img/item_4.png" alt=""/>
+                    </picture>
+                  </div>
+                  <div class="list__block-text text list__block-text_4">
+                    <h3 class="list__title">Вкус апрува:</h3>
+                    <div class="list__subtitle">для тех, кто  хочет узнать, как это.</div>
+                    <div class="list__text">Содержит комплекс природных веществ, повышающий настроение и чувство собственной важности до уровня божечки.</div>
+                  </div>
+                </div>
+              </section>
+            </div>
+            <div class="swiper-nav">
+              <div class="swiper-button swiper-button-prev">
+                <svg width="19" height="18" viewbox="0 0 19 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path opacity="0.8" d="M9.49836 1.69023L2.30432 8.88428L9.49836 16.0783" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+                </svg>
+              </div>
+              <div class="swiper-button swiper-button-next">
+                <svg width="18" height="18" viewbox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path opacity="0.8" d="M8.99016 16.3095L16.1842 9.11548L8.99016 1.92144" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+                </svg>
               </div>
             </div>
           </div>
@@ -195,6 +267,18 @@
                   <h3 class="section4-2__subtitle subtitle">Преимущества</h3>
                   <div class="text">Увеличивают охваты в Фейсбуке и скорость прогрева аккаунтов. Снижают риск бана. Помогают согреться, когда отопление отключили за неуплату.</div>
                 </div>
+                <div class="section4-2__block-img-mob"> 
+                  <div class="section4-2__img-mob section4-2__img-mob_1">
+                    <picture>
+                      <source srcset="img/s_left.webp" type="image/webp"/><img src="img/s_left.png" alt="" width="330" height="418"/>
+                    </picture>
+                  </div>
+                  <div class="section4-2__img-mob section4-2__img-mob_2">
+                    <picture>
+                      <source srcset="img/s_right.webp" type="image/webp"/><img src="img/s_right.png" alt=""/>
+                    </picture>
+                  </div>
+                </div>
                 <div class="section4-2__block-text section4-2__block-text_2">
                   <h3 class="section4-2__subtitle subtitle">Бонус партнерам</h3>
                   <div class="text">Особая функция, доступная только партнерам Terra Leads: встроенный навигатор, который поможет дойти домой после самого сумасшедшего митапа.</div>
@@ -214,7 +298,7 @@
                 </picture>
               </div>
               <div class="section5__block-text section5__block-text_1">
-                <h2 class="section5__title title text-bg-lg">Тихоходка Terra Leads</h2>
+                <h2 class="section5__title title text-bg-lg">Тихоходка TerraLeads</h2>
                 <div class="section5__text text">Уникальное существо, созданное самой природой, чтобы стать амулетом вебмастера и символом арбитража. <br> Но наша тихоходка, кроме базовых способностей, имеет дополнительные.</div>
               </div>
               <div class="section5__block-text section5__block-text_2">
@@ -255,7 +339,7 @@
             </div>
             <div class="section6__block rounded-block">
               <h2 class="section6__title title text-bg-lg">Выбор, достойный тебя</h2>
-              <div class="section6__text text">Готов открыть новые возможности и реализовать потенциал по-максимуму? Тогда не жди — забирай свой Terra-Pack!</div><a class="button" href="">Заказать</a>
+              <div class="section6__text text">Готов открыть новые возможности и реализовать потенциал по-максимуму? Тогда не жди — забирай свой Terra&nbsp;-&nbsp;Pack!</div><a class="button" href="">Заказать</a>
               <div class="section6__label">*Количество ограничено</div>
             </div>
           </div>
@@ -266,6 +350,7 @@
           <div class="footer__content"> 
             <div class="footer__top">
               <div class="logo footer__logo"><a class="logo__link" href="/"><img src="img/logo.png" alt="" width="138" height="58"/></a></div>
+              <div class="logo footer__logo-mob"><a class="logo__link" href="/"><img src="img/logo-mob.png" alt=""/></a></div>
               <nav class="footer__nav">
                 <ul class="footer__menu menu">
                   <li class="menu__item"><a class="menu__link link_js" href="#terra-pack">Terra-Pack</a></li>
@@ -276,32 +361,34 @@
                 </ul>
               </nav>
               <div class="footer__block"> 
-                <ul class="soc"> 
-                  <li class="soc__item"><a class="soc__link" href="">
-                      <svg width="21" height="21" viewbox="0 0 21 21" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M10.5 20.5C4.97715 20.5 0.5 16.0228 0.5 10.5C0.5 4.97715 4.97715 0.5 10.5 0.5C16.0228 0.5 20.5 4.97715 20.5 10.5C20.5 16.0228 16.0228 20.5 10.5 20.5ZM10.5 20.5V8.5C10.5 7.39543 11.3954 6.5 12.5 6.5H14M7 12.5H14" stroke="white"></path>
-                      </svg></a></li>
-                  <li class="soc__item"><a class="soc__link" href="">
-                      <svg width="21" height="21" viewbox="0 0 21 21" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M16 5.5H17M4.5 0.5H16.5C18.7091 0.5 20.5 2.29086 20.5 4.5V16.5C20.5 18.7091 18.7091 20.5 16.5 20.5H4.5C2.29086 20.5 0.5 18.7091 0.5 16.5V4.5C0.5 2.29086 2.29086 0.5 4.5 0.5ZM10.5 14.5C8.29086 14.5 6.5 12.7091 6.5 10.5C6.5 8.29086 8.29086 6.5 10.5 6.5C12.7091 6.5 14.5 8.29086 14.5 10.5C14.5 12.7091 12.7091 14.5 10.5 14.5Z" stroke="white"></path>
-                      </svg></a></li>
-                  <li class="soc__item"><a class="soc__link" href="">
-                      <svg width="21" height="21" viewbox="0 0 21 21" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M5.5 8V16M15.5 16V12C15.5 10.067 13.933 8.5 12 8.5C10.067 8.5 8.5 10.067 8.5 12V16V8M5 5.5H6M1.5 0.5H19.5C20.0523 0.5 20.5 0.947715 20.5 1.5V19.5C20.5 20.0523 20.0523 20.5 19.5 20.5H1.5C0.947716 20.5 0.5 20.0523 0.5 19.5V1.5C0.5 0.947716 0.947715 0.5 1.5 0.5Z" stroke="white"></path>
-                      </svg></a></li>
-                  <li class="soc__item"><a class="soc__link" href="">
-                      <svg width="21" height="19" viewbox="0 0 21 19" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M20.4691 1L20.968 0.966923C20.9547 0.766352 20.8226 0.593244 20.6327 0.5275C20.4427 0.461755 20.2319 0.516157 20.0974 0.665597L20.4691 1ZM19.5428 5.22701C19.5428 4.95086 19.3189 4.72701 19.0428 4.72701C18.7666 4.72701 18.5428 4.95086 18.5428 5.22701H19.5428ZM10.5 6.5V7H11V6.5H10.5ZM1.92637 1L2.39462 0.824676C2.32485 0.63834 2.15124 0.511104 1.95255 0.500686C1.75385 0.490268 1.56789 0.598651 1.47902 0.776669L1.92637 1ZM7.5 14L7.85383 14.3533C7.97619 14.2307 8.02642 14.0536 7.98661 13.885C7.94679 13.7165 7.8226 13.5806 7.65833 13.5257L7.5 14ZM0.5 16.7143V16.2143C0.279732 16.2143 0.0854109 16.3584 0.0215057 16.5692C-0.0423996 16.78 0.0391667 17.0078 0.222353 17.1301L0.5 16.7143ZM17.9515 2.39054L17.5806 2.72589L17.7608 2.92513L18.0264 2.88491L17.9515 2.39054ZM19.9702 1.03308C20.0446 2.15499 19.9783 2.86395 19.7838 3.41243C19.5929 3.95047 19.2609 4.38419 18.6968 4.9247L19.3887 5.64673C20.0033 5.0578 20.4605 4.4957 20.7262 3.74676C20.9882 3.00827 21.0458 2.13909 20.968 0.966923L19.9702 1.03308ZM19.5428 6.26785V5.28571H18.5428V6.26785H19.5428ZM19.5428 5.28571V5.22701H18.5428V5.28571H19.5428ZM10 5.5V6.5H11V5.5H10ZM14.8223 0.5C12.125 0.5 10 2.85065 10 5.5H11C11 3.35063 12.7282 1.5 14.8223 1.5V0.5ZM18.5428 6.26785C18.5428 12.5599 13.2624 18 7 18V19C13.8342 19 19.5428 13.0925 19.5428 6.26785H18.5428ZM1.45811 1.17532C2.22305 3.2183 5.10161 7 10.5 7V6C5.62855 6 3.05605 2.59122 2.39462 0.824676L1.45811 1.17532ZM1.47902 0.776669C0.00554863 3.72816 -0.242404 6.59715 0.775073 9.03207C1.79256 11.467 4.03467 13.3702 7.34167 14.4743L7.65833 13.5257C4.54668 12.4869 2.57561 10.7473 1.69776 8.64651C0.819895 6.54571 0.994452 3.98613 2.37372 1.22333L1.47902 0.776669ZM7.14617 13.6467C6.26646 14.5278 3.76165 16.2143 0.5 16.2143V17.2143C4.08491 17.2143 6.83174 15.377 7.85383 14.3533L7.14617 13.6467ZM18.3224 2.0552C17.4594 1.10084 16.2107 0.5 14.8223 0.5V1.5C15.916 1.5 16.8991 1.97214 17.5806 2.72589L18.3224 2.0552ZM18.0264 2.88491C19.0619 2.72808 20.0775 2.18292 20.8409 1.3344L20.0974 0.665597C19.4829 1.34872 18.6743 1.77537 17.8766 1.89618L18.0264 2.88491ZM0.222353 17.1301C2.47016 18.631 4.63313 19 7 19V18C4.75713 18 2.80895 17.6548 0.777647 16.2985L0.222353 17.1301Z" fill="white"></path>
-                      </svg></a></li>
-                  <li class="soc__item"><a class="soc__link" href="">
-                      <svg width="21" height="19" viewbox="0 0 21 19" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M20.5 1L0.5 8.14286L6.21429 11L14.7857 5.28571L9.07143 12.4286L17.6429 18.1429L20.5 1Z" stroke="white" stroke-linejoin="round"></path>
-                      </svg></a></li>
-                  <li class="soc__item"><a class="soc__link" href="">
-                      <svg width="27" height="20" viewbox="0 0 27 20" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M18.3403 18.1653L16.2581 15.4045C16.1423 15.2566 16.0488 15.1717 15.9832 15.1234L15.8799 15.1542L15.4054 17.3763L15.3259 17.8359C15.1919 18.3102 14.8988 18.7948 14.3015 18.9163L13.9345 18.9411H11.5271C7.24555 18.9411 3.37983 12.5456 0.673833 4.57791L0.654295 4.50325C0.562188 4.02457 0.516134 3.4932 0.739424 3.06576C0.996208 2.57244 1.48745 2.41435 2.00241 2.39824L5.70205 2.42459C5.93092 2.42606 6.13328 2.58269 6.19887 2.81251C7.03063 5.68018 8.05218 7.4324 9.30121 9.43055L9.3361 9.49496C9.47147 9.79358 9.75477 9.70868 9.90131 9.47154L9.99062 9.19487L9.99202 4.69355C9.99202 4.03189 9.70453 3.93821 9.00675 3.83427C8.68716 3.78597 8.48481 3.44782 8.5825 3.12577C8.91883 2.0074 10.0227 1.43503 11.5537 1.43503L12.9646 1.3999C14.1061 1.3999 15.1403 1.91371 15.1403 3.44489V9.36614L15.2407 9.42469C15.4277 9.4935 15.7948 9.50813 16.092 9.01921C17.3746 7.12207 18.8525 4.85604 19.0604 3.67179C19.0688 3.62348 19.0827 3.5781 19.1023 3.53419C19.3632 2.9589 20.0764 2.55341 20.3639 2.46119C20.4043 2.44801 20.4853 2.42313 20.5802 2.42313L24.4333 2.42606L24.672 2.42898C24.7627 2.44069 24.852 2.46119 24.9385 2.49339C25.1702 2.58122 25.3335 2.74078 25.4409 2.9223C25.6516 3.28241 25.6223 3.68643 25.6433 3.84745C25.6516 3.90161 25.6516 3.95724 25.6433 4.01286C25.2818 6.38429 22.6819 9.04263 21.5892 10.767C21.3086 11.1725 21.3045 11.4755 21.5654 11.8078L25.1925 16.5697C25.6112 17.1977 25.5888 17.8842 25.1437 18.3746C24.8534 18.6952 24.4319 18.8738 23.9867 18.928L23.5681 18.9411H19.7135L19.7819 18.9368C19.2753 19.007 18.8818 18.7874 18.5859 18.4756L18.3403 18.1653Z" stroke="white" stroke-linecap="round" stroke-linejoin="round"></path>
-                      </svg></a></li>
-                </ul>
+                <div class="footer__block-soc">
+                  <ul class="soc"> 
+                    <li class="soc__item"><a class="soc__link" href="">
+                        <svg width="21" height="21" viewbox="0 0 21 21" fill="none" xmlns="http://www.w3.org/2000/svg">
+                          <path d="M10.5 20.5C4.97715 20.5 0.5 16.0228 0.5 10.5C0.5 4.97715 4.97715 0.5 10.5 0.5C16.0228 0.5 20.5 4.97715 20.5 10.5C20.5 16.0228 16.0228 20.5 10.5 20.5ZM10.5 20.5V8.5C10.5 7.39543 11.3954 6.5 12.5 6.5H14M7 12.5H14" stroke="white"></path>
+                        </svg></a></li>
+                    <li class="soc__item"><a class="soc__link" href="">
+                        <svg width="21" height="21" viewbox="0 0 21 21" fill="none" xmlns="http://www.w3.org/2000/svg">
+                          <path d="M16 5.5H17M4.5 0.5H16.5C18.7091 0.5 20.5 2.29086 20.5 4.5V16.5C20.5 18.7091 18.7091 20.5 16.5 20.5H4.5C2.29086 20.5 0.5 18.7091 0.5 16.5V4.5C0.5 2.29086 2.29086 0.5 4.5 0.5ZM10.5 14.5C8.29086 14.5 6.5 12.7091 6.5 10.5C6.5 8.29086 8.29086 6.5 10.5 6.5C12.7091 6.5 14.5 8.29086 14.5 10.5C14.5 12.7091 12.7091 14.5 10.5 14.5Z" stroke="white"></path>
+                        </svg></a></li>
+                    <li class="soc__item"><a class="soc__link" href="">
+                        <svg width="21" height="21" viewbox="0 0 21 21" fill="none" xmlns="http://www.w3.org/2000/svg">
+                          <path d="M5.5 8V16M15.5 16V12C15.5 10.067 13.933 8.5 12 8.5C10.067 8.5 8.5 10.067 8.5 12V16V8M5 5.5H6M1.5 0.5H19.5C20.0523 0.5 20.5 0.947715 20.5 1.5V19.5C20.5 20.0523 20.0523 20.5 19.5 20.5H1.5C0.947716 20.5 0.5 20.0523 0.5 19.5V1.5C0.5 0.947716 0.947715 0.5 1.5 0.5Z" stroke="white"></path>
+                        </svg></a></li>
+                    <li class="soc__item"><a class="soc__link" href="">
+                        <svg width="21" height="19" viewbox="0 0 21 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+                          <path d="M20.4691 1L20.968 0.966923C20.9547 0.766352 20.8226 0.593244 20.6327 0.5275C20.4427 0.461755 20.2319 0.516157 20.0974 0.665597L20.4691 1ZM19.5428 5.22701C19.5428 4.95086 19.3189 4.72701 19.0428 4.72701C18.7666 4.72701 18.5428 4.95086 18.5428 5.22701H19.5428ZM10.5 6.5V7H11V6.5H10.5ZM1.92637 1L2.39462 0.824676C2.32485 0.63834 2.15124 0.511104 1.95255 0.500686C1.75385 0.490268 1.56789 0.598651 1.47902 0.776669L1.92637 1ZM7.5 14L7.85383 14.3533C7.97619 14.2307 8.02642 14.0536 7.98661 13.885C7.94679 13.7165 7.8226 13.5806 7.65833 13.5257L7.5 14ZM0.5 16.7143V16.2143C0.279732 16.2143 0.0854109 16.3584 0.0215057 16.5692C-0.0423996 16.78 0.0391667 17.0078 0.222353 17.1301L0.5 16.7143ZM17.9515 2.39054L17.5806 2.72589L17.7608 2.92513L18.0264 2.88491L17.9515 2.39054ZM19.9702 1.03308C20.0446 2.15499 19.9783 2.86395 19.7838 3.41243C19.5929 3.95047 19.2609 4.38419 18.6968 4.9247L19.3887 5.64673C20.0033 5.0578 20.4605 4.4957 20.7262 3.74676C20.9882 3.00827 21.0458 2.13909 20.968 0.966923L19.9702 1.03308ZM19.5428 6.26785V5.28571H18.5428V6.26785H19.5428ZM19.5428 5.28571V5.22701H18.5428V5.28571H19.5428ZM10 5.5V6.5H11V5.5H10ZM14.8223 0.5C12.125 0.5 10 2.85065 10 5.5H11C11 3.35063 12.7282 1.5 14.8223 1.5V0.5ZM18.5428 6.26785C18.5428 12.5599 13.2624 18 7 18V19C13.8342 19 19.5428 13.0925 19.5428 6.26785H18.5428ZM1.45811 1.17532C2.22305 3.2183 5.10161 7 10.5 7V6C5.62855 6 3.05605 2.59122 2.39462 0.824676L1.45811 1.17532ZM1.47902 0.776669C0.00554863 3.72816 -0.242404 6.59715 0.775073 9.03207C1.79256 11.467 4.03467 13.3702 7.34167 14.4743L7.65833 13.5257C4.54668 12.4869 2.57561 10.7473 1.69776 8.64651C0.819895 6.54571 0.994452 3.98613 2.37372 1.22333L1.47902 0.776669ZM7.14617 13.6467C6.26646 14.5278 3.76165 16.2143 0.5 16.2143V17.2143C4.08491 17.2143 6.83174 15.377 7.85383 14.3533L7.14617 13.6467ZM18.3224 2.0552C17.4594 1.10084 16.2107 0.5 14.8223 0.5V1.5C15.916 1.5 16.8991 1.97214 17.5806 2.72589L18.3224 2.0552ZM18.0264 2.88491C19.0619 2.72808 20.0775 2.18292 20.8409 1.3344L20.0974 0.665597C19.4829 1.34872 18.6743 1.77537 17.8766 1.89618L18.0264 2.88491ZM0.222353 17.1301C2.47016 18.631 4.63313 19 7 19V18C4.75713 18 2.80895 17.6548 0.777647 16.2985L0.222353 17.1301Z" fill="white"></path>
+                        </svg></a></li>
+                    <li class="soc__item"><a class="soc__link" href="">
+                        <svg width="21" height="19" viewbox="0 0 21 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+                          <path d="M20.5 1L0.5 8.14286L6.21429 11L14.7857 5.28571L9.07143 12.4286L17.6429 18.1429L20.5 1Z" stroke="white" stroke-linejoin="round"></path>
+                        </svg></a></li>
+                    <li class="soc__item"><a class="soc__link" href="">
+                        <svg width="27" height="20" viewbox="0 0 27 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                          <path d="M18.3403 18.1653L16.2581 15.4045C16.1423 15.2566 16.0488 15.1717 15.9832 15.1234L15.8799 15.1542L15.4054 17.3763L15.3259 17.8359C15.1919 18.3102 14.8988 18.7948 14.3015 18.9163L13.9345 18.9411H11.5271C7.24555 18.9411 3.37983 12.5456 0.673833 4.57791L0.654295 4.50325C0.562188 4.02457 0.516134 3.4932 0.739424 3.06576C0.996208 2.57244 1.48745 2.41435 2.00241 2.39824L5.70205 2.42459C5.93092 2.42606 6.13328 2.58269 6.19887 2.81251C7.03063 5.68018 8.05218 7.4324 9.30121 9.43055L9.3361 9.49496C9.47147 9.79358 9.75477 9.70868 9.90131 9.47154L9.99062 9.19487L9.99202 4.69355C9.99202 4.03189 9.70453 3.93821 9.00675 3.83427C8.68716 3.78597 8.48481 3.44782 8.5825 3.12577C8.91883 2.0074 10.0227 1.43503 11.5537 1.43503L12.9646 1.3999C14.1061 1.3999 15.1403 1.91371 15.1403 3.44489V9.36614L15.2407 9.42469C15.4277 9.4935 15.7948 9.50813 16.092 9.01921C17.3746 7.12207 18.8525 4.85604 19.0604 3.67179C19.0688 3.62348 19.0827 3.5781 19.1023 3.53419C19.3632 2.9589 20.0764 2.55341 20.3639 2.46119C20.4043 2.44801 20.4853 2.42313 20.5802 2.42313L24.4333 2.42606L24.672 2.42898C24.7627 2.44069 24.852 2.46119 24.9385 2.49339C25.1702 2.58122 25.3335 2.74078 25.4409 2.9223C25.6516 3.28241 25.6223 3.68643 25.6433 3.84745C25.6516 3.90161 25.6516 3.95724 25.6433 4.01286C25.2818 6.38429 22.6819 9.04263 21.5892 10.767C21.3086 11.1725 21.3045 11.4755 21.5654 11.8078L25.1925 16.5697C25.6112 17.1977 25.5888 17.8842 25.1437 18.3746C24.8534 18.6952 24.4319 18.8738 23.9867 18.928L23.5681 18.9411H19.7135L19.7819 18.9368C19.2753 19.007 18.8818 18.7874 18.5859 18.4756L18.3403 18.1653Z" stroke="white" stroke-linecap="round" stroke-linejoin="round"></path>
+                        </svg></a></li>
+                  </ul>
+                </div>
                 <div class="terms"> <a href="">
                      Website Terms of Use</a></div>
               </div>
