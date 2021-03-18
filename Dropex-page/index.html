@@ -1,0 +1,432 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta http-equiv="X-UA-Compatible" content="ie=edge"/>
+    <title>Dropex</title>
+    <link rel="shortcut icon" href="favicon.png" type="image/png"/>
+    <link rel="preconnect" href="https://fonts.gstatic.com"/>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&amp;display=swap" rel="stylesheet"/>
+    <link rel="stylesheet" href="css/main.css"/>
+    <link rel="alternate" hreflang="en" href="/"/>
+    <link rel="alternate" hreflang="ru" href="/ru/"/>
+    <link rel="alternate" hreflang="es" href="/es/"/>
+    <link rel="alternate" hreflang="pt" href="/pt/"/>
+    <link rel="alternate" hreflang="it" href="/it/"/>
+    <link rel="alternate" hreflang="el" href="/gr/"/>
+    <link rel="alternate" hreflang="ro" href="/ro/"/>
+    <link rel="alternate" hreflang="hu" href="/hu/"/>
+  </head>
+  <body>
+    <div class="wrapper">
+      <header class="header_js header" id="nav_mob_js">
+        <div class="container">
+          <div class="header__content">
+            <div class="logo header__logo"><a class="logo__link" href="/"><img src="img/logo.svg" alt="" width="182" height="44"/></a></div>
+            <nav class="header__nav">
+              <ul class="header__menu menu" id="menu_js">
+                <li class="menu__item"><a class="menu__link link_js" href="#cod">COD</a></li>
+                <li class="menu__item"><a class="menu__link link_js" href="#delivery">Доставка</a></li>
+                <li class="menu__item"><a class="menu__link link_js" href="#clients">Клиенты</a></li>
+                <li class="menu__item"><a class="menu__link link_js" href="#reviews">Отзывы</a></li>
+                <li class="menu__item"><a class="menu__link link_js" href="#articles">Статьи</a></li>
+              </ul><a class="button button_white header__button" id="header_button_js" href="">Зарегистрироваться</a>
+              <div class="header__lang lang drop-down">
+                <div class="lang__current drop-down__toggle"><span class="lang__text">Ru</span></div>
+              </div>
+            </nav>
+          </div>
+        </div>
+      </header>
+      <header class="header_mob_js header-mob">
+        <div class="container">
+          <div class="header-mob__content">
+            <div class="mob-logo" id="mob_logo_js"><a class="mob-logo__link" href="/"><img class="mob-logo__img" src="img/logo_mob.svg" alt=""/>
+                <svg class="mob-logo__svg" width="109" height="26" viewbox="0 0 109 26" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path class="mob-logo__svg-el mob-logo__svg-el_1" fill-rule="evenodd" clip-rule="evenodd" d="M40.4487 20.6285H33.9357V4.83664H40.4487C44.8406 4.85851 48.3707 8.39455 48.3707 12.7326C48.3707 17.0888 44.8406 20.6066 40.4487 20.6285ZM44.9081 12.7326C44.9081 10.1844 43.0681 7.68005 40.4262 7.6363H37.3983V17.8252H40.4262C43.0906 17.807 44.9081 15.2807 44.9081 12.7326Z" fill="#072C74"></path>
+                  <path class="mob-logo__svg-el mob-logo__svg-el_2" d="M53.6733 16.2905C53.6733 13.7423 54.108 12.3534 56.0117 12.3534C56.9223 12.3534 57.4619 12.8784 57.6118 13.0242L58.0877 10.5198C57.743 10.1006 57.1584 9.78343 56.3564 9.78343C54.865 9.78343 54.018 10.4761 53.6733 11.6572V9.88915H50.3194V20.6285H53.6733V16.2905Z" fill="#072C74"></path>
+                  <path class="mob-logo__svg-el mob-logo__svg-el_3" fill-rule="evenodd" clip-rule="evenodd" d="M70.5141 15.2807C70.5141 18.7985 67.8085 20.7342 64.7356 20.7342C61.6628 20.7342 58.9571 18.7985 58.9571 15.2807C58.9571 11.7665 61.6628 9.78709 64.7356 9.78709C67.8085 9.78345 70.5141 11.7629 70.5141 15.2807ZM62.3111 15.2807C62.3111 16.9649 63.113 18.1642 64.7356 18.1642C66.3582 18.1642 67.1602 16.9649 67.1602 15.2807C67.1602 13.5747 66.3582 12.3535 64.7356 12.3535C63.113 12.3535 62.3111 13.5747 62.3111 15.2807Z" fill="#072C74"></path>
+                  <path class="mob-logo__svg-el mob-logo__svg-el_4" fill-rule="evenodd" clip-rule="evenodd" d="M75.8167 24.5218V19.1959C76.7498 20.3952 78.2638 20.7342 79.3655 20.7342C82.0899 20.7342 84.2334 18.6709 84.2334 15.2588C84.2334 11.6353 82.0936 9.78343 79.3655 9.78343C78.2638 9.78343 76.7461 10.1225 75.8167 11.3218V9.88915H72.4628V24.5218H75.8167ZM78.35 18.1642C76.7273 18.1642 75.8167 16.9649 75.8167 15.2588C75.8167 13.5746 76.7273 12.3534 78.35 12.3534C79.9726 12.3534 80.8832 13.5746 80.8832 15.2588C80.8832 16.9649 79.9726 18.1642 78.35 18.1642Z" fill="#072C74"></path>
+                  <path class="mob-logo__svg-el mob-logo__svg-el_5" fill-rule="evenodd" clip-rule="evenodd" d="M88.8914 16.2467C88.8914 17.4679 90.1243 18.1606 91.3572 18.1606C92.2229 18.1606 93.2197 17.8252 93.868 17.1508L95.8579 18.9407C94.6887 20.0562 93.1972 20.7306 91.1811 20.7306C87.6735 20.7306 85.5337 18.31 85.5337 15.2369C85.5337 12.1639 87.6773 9.78343 90.9862 9.78343C94.3626 9.78343 96.4612 12.1201 96.4612 15.2369V16.3123L88.8914 16.2467ZM90.99 12.3534C89.8208 12.3534 88.8914 13.1117 88.8914 14.2709H93.111C93.111 13.1117 92.2041 12.3534 90.99 12.3534Z" fill="#072C74"></path>
+                  <path class="mob-logo__svg-el mob-logo__svg-el_6" d="M105.32 20.6285H109L104.994 15.237L109 9.88916H105.32L103.045 13.1518L100.797 9.88916H97.117L101.142 15.237L97.117 20.6285H100.819L103.068 17.344L105.32 20.6285Z" fill="#072C74"></path>
+                </svg></a></div><a class="button header-mob__button" href="">Регистрация</a>
+            <div class="header-mob__burger">
+              <div class="burger" id="burger_js">
+                <div class="burger__line burger__line_1"></div>
+                <div class="burger__line burger__line_2"></div>
+                <div class="burger__line burger__line_3"></div>
+                <div class="burger__line burger__line_4"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </header>
+      <section class="section1 visible_section_js" id="main">
+        <div class="container">
+          <div class="section1__content col-l-10 col-s-12 col-center">
+            <div class="section1__img visible_anim_js" data-id="lottie_1">
+              <div class="section1__bg-img section1__bg-img_1">
+                <svg class="icon square">
+                  <use xlink:href="img/svg/symbols.svg#square"></use>
+                </svg>
+              </div>
+              <div id="lottie_1"></div>
+            </div>
+            <div class="section1__block-info col-s-12 col-l-6 p-lr-15">
+              <h1 class="section1__title title">Услуги фулфилмента для бизнеса и частных лиц</h1>
+              <div class="section1__text text">Отправляйте грузы и отслеживайте их, не тратя лишнее время и деньги.</div><a class="button button_red section1__button visible_button_js" href="">Подключить Dropex</a>
+            </div>
+            <div class="section1__bg-img section1__bg-img_2">
+              <svg class="icon square">
+                <use xlink:href="img/svg/symbols.svg#square"></use>
+              </svg>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="section2">
+        <div class="container">
+          <div class="section2__content">
+            <div class="section2__blocks row">
+              <div class="section2__block text">Единая платформа управления доставками</div>
+              <div class="section2__block text">Собственные склады и надежная логистическая сеть</div>
+              <div class="section2__block text">Удобная CRM-система с интеграцией по API</div>
+              <div class="section2__bg-img section2__bg-img_1">
+                <svg class="icon square">
+                  <use xlink:href="img/svg/symbols.svg#square"></use>
+                </svg>
+              </div>
+              <div class="section2__bg-img section2__bg-img_2">
+                <svg class="icon triangle">
+                  <use xlink:href="img/svg/symbols.svg#triangle"></use>
+                </svg>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="section4 visible_section_js" id="cod">
+        <div class="container">
+          <div class="section4__content row col-l-10 col-s-12 col-center">
+            <div class="section4__img visible_anim_js" data-id="lottie_2">
+              <div id="lottie_2"></div>
+            </div>
+            <div class="section4__block-info col-s-12 col-l-6 p-lr-15">
+              <div class="section4__block-text">
+                <h2 class="section4__title title line line_blue">Работаем <br> с COD моделью</h2>
+                <div class="section4__text text">Отправлять товары наложенным платежом просто:</div>
+              </div>
+              <ul class="section4__list list color-white">
+                <li class="list__item text bg-blue list__item_s">Все, что вам нужно сделать — передать нам ваш груз.</li>
+                <li class="list__item text bg-red ">Мы его упакуем, доставим получателю, примем оплату, переведем деньги на ваш счет и сообщим об этом через CRM-систему.</li>
+              </ul>
+            </div>
+            <div class="section4__bg-img">
+              <svg class="icon square">
+                <use xlink:href="img/svg/symbols.svg#square"></use>
+              </svg>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="section5 visible_section_js" id="delivery">
+        <div class="container">
+          <div class="section5__content">
+            <div class="section5__block color-white block-br">
+              <h2 class="section5__title title line line_white">Сотрудничаем с лучшими курьерами</h2>
+              <ul class="section5__list row">
+                <li class="section5__list-item">
+                  <div class="section5__list-img"><img src="img/img1.svg" alt=""/></div>
+                  <div class="section5__list-text text">Мы распределяем потоки между курьерами для ускорения доставки, контролируем качество услуг и постоянно развиваем партнерскую сеть.</div>
+                </li>
+                <li class="section5__list-item">
+                  <div class="section5__list-img"><img src="img/img2.svg" alt=""/></div>
+                  <div class="section5__list-text text">Подберем оптимальную схему — и передадим ваш заказ тому курьеру, который доставит его быстрее других. </div>
+                </li>
+              </ul>
+              <div class="section5__bg-img section5__bg-img_1">
+                <svg class="icon triangle">
+                  <use xlink:href="img/svg/symbols.svg#triangle"></use>
+                </svg>
+              </div>
+              <div class="section5__bg-img section5__bg-img_2">
+                <svg class="icon triangle">
+                  <use xlink:href="img/svg/symbols.svg#triangle"></use>
+                </svg>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="section6 visible_section_js" id="clients">
+        <div class="container">
+          <div class="section6__content col-l-10 col-s-12 col-center">
+            <section class="section6__section row">
+              <div class="section6__img visible_anim_js section6__img_1" data-id="lottie_3">
+                <div id="lottie_3"></div>
+              </div>
+              <div class="col-s-12 col-l-6 p-lr-15">
+                <div class="section6__block-info">
+                  <h2 class="section6__title title line line_blue">Принимаем и обрабатываем возвраты</h2>
+                  <div class="section6__text text">
+                    <p>Мы полностью обработаем возврат и доставим товар на ваш склад, а подробная информация об этом сразу появится в CRM-системе.</p>
+                    <p>Вам не придется тратить время на перевод денег клиенту, выяснение причин возврата и проверку товара.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="section6__bg-img section6__bg-img_1">
+                <svg class="icon square">
+                  <use xlink:href="img/svg/symbols.svg#square"></use>
+                </svg>
+              </div>
+            </section>
+            <section class="section6__section row">
+              <div class="section6__img visible_anim_js section6__img_2" data-id="lottie_4">
+                <div id="lottie_4"></div>
+              </div>
+              <div class="col-s-12 col-l-6 p-lr-15">
+                <div class="section6__block-info">
+                  <h2 class="section6__title title line line_blue">Предлагаем <br> низкие тарифы</h2>
+                  <div class="section6__text text">
+                    <p>За счет больших объемов доставок мы получаем выгодные условия у партнеров — транспортных компаний, других логистических операторов и курьерских служб.</p>
+                    <p>Поэтому с клиентами мы работаем по сниженным тарифным ставкам, даже на небольших заказах.</p>
+                    <p>Чем больше ваш заказ, тем более выгодные тарифы мы вам предложим</p>
+                  </div>
+                </div>
+              </div>
+              <div class="section6__bg-img section6__bg-img_2">
+                <svg class="icon triangle">
+                  <use xlink:href="img/svg/symbols.svg#triangle"></use>
+                </svg>
+              </div>
+            </section>
+          </div>
+        </div>
+      </section>
+      <section class="section7">
+        <div class="container">
+          <div class="section7__content row col-l-10 col-s-12 col-center">
+            <div class="col-s-12 col-l-5 p-lr-15">
+              <h2 class="section7__title title line line_blue">Работаем в Евросоюзе</h2>
+            </div>
+            <div class="col-s-12 col-l-7 p-lr-15">
+              <div class="section7__block-info">
+                <div class="section7__block-text">
+                  <h3 class="section7__subtitle subtitle">Даже с нерезидентами</h3>
+                  <div class="section7__text text">Независимо от вашей страны, вам доступны любые варианты доставки (в том числе COD).</div>
+                </div>
+                <ul class="section7__list list color-white">
+                  <li class="list__item bg-blue">
+                    <h3 class="subtitle">Юридическими лицами</h3>
+                    <p class="text">Мы подробно вас проконсультируем и возьмем на себя оформление всех необходимых документов.</p>
+                  </li>
+                  <li class="list__item bg-red">
+                    <h3 class="subtitle">Частными лицами</h3>
+                    <p class="text">При этом вам не обязательно иметь свою компанию — вы можете работать через нас как частное лицо.</p>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="section7__bg-img section7__bg-img_1">
+              <svg class="icon square">
+                <use xlink:href="img/svg/symbols.svg#square"></use>
+              </svg>
+            </div>
+            <div class="section7__bg-img section7__bg-img_2">
+              <svg class="icon triangle">
+                <use xlink:href="img/svg/symbols.svg#triangle"></use>
+              </svg>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="section8 visible_section_js" id="reviews">
+        <div class="section8__content color-white">
+          <div class="container">
+            <h2 class="section8__title title">Что наши клиенты говорят о нас</h2>
+            <div class="slider slider1" id="slider1_js">
+              <div class="slider1__slide slider1__slide_1">
+                <div class="slider1__img"><img src="img/slide1.jpg" alt=""/></div>
+              </div>
+              <div class="slider1__slide slider1__slide_2">
+                <div class="slider1__img"><img src="img/slide1.jpg" alt=""/></div>
+              </div>
+              <div class="slider1__slide slider1__slide_3">
+                <div class="slider1__img"><img src="img/slide1.jpg" alt=""/></div>
+              </div>
+              <div class="slider1__slide slider1__slide_4">
+                <div class="slider1__img"><img src="img/slide1.jpg" alt=""/></div>
+              </div>
+            </div>
+          </div>
+          <div class="section8__container">
+            <div class="slider slider2" id="slider2_js">
+              <div class="slider2__slide slider2__slide_1">
+                <div class="slider2__slide-author">Алина Марцинкевич</div>
+                <div class="slider2__slide-title subtitle">Действительно быстрая доставка</div>
+                <div class="slider2__slide-text">Мы работаем из России с несколькими странами Евросоюза. Договор с Dropex заключили чуть больше месяца назад. Сроки доставки просто поражают — доставляют за один день! Рекомендую Dropex как надежного партнера, который выполняет все свои обещания!</div>
+              </div>
+              <div class="slider2__slide slider2__slide_2">
+                <div class="slider2__slide-author">Андре Вьен</div>
+                <div class="slider2__slide-title subtitle">Выгодные цены</div>
+                <div class="slider2__slide-text">У нас небольшая компания, поэтому мы в первую очередь обращаем внимание на цены, которые предлагают наши партнеры. Особенно сейчас, в период кризиса. Поэтому Dropex стал для нас приятным открытием — цены, которые действительно можно назвать конкурентными! Надеюсь на долгое и плодотворное сотрудничество!</div>
+              </div>
+              <div class="slider2__slide slider2__slide_3">
+                <div class="slider2__slide-author">Лорен Девис</div>
+                <div class="slider2__slide-title subtitle">Свобода от рутины</div>
+                <div class="slider2__slide-text">Наконец-то мы нашли компанию доставки, на которую действительно можно положиться! Спасибо вам за то, что сделали наши бизнес-процессы проще! А у меня освободилось время, чтобы развивать другие проекты.</div>
+              </div>
+              <div class="slider2__slide slider2__slide_4">
+                <div class="slider2__slide-author">Анатолий Смирнов</div>
+                <div class="slider2__slide-title subtitle">Могу работать как хочу</div>
+                <div class="slider2__slide-text">У меня своя мастерская, часто отправляю товары в Европу, Австралию, Азию. Раньше проводил отправки через знакомых и даже не думал, что это можно делать без своей фирмы и необходимости заполнять кучу бумажек. Но это правда возможно. Спасибо, Dropex!</div>
+              </div>
+            </div>
+          </div>
+          <div class="section8__bg-img section8__bg-img_1">
+            <svg class="icon square">
+              <use xlink:href="img/svg/symbols.svg#square"></use>
+            </svg>
+          </div>
+          <div class="section8__bg-img section8__bg-img_2">
+            <svg class="icon triangle">
+              <use xlink:href="img/svg/symbols.svg#triangle"></use>
+            </svg>
+          </div>
+        </div>
+      </section>
+      <section class="section9 visible_section_js" id="articles">
+        <div class="container">
+          <div class="section9__content row col-l-10 col-s-12 col-center">
+            <div class="col-s-12 col-l-5 p-lr-15">
+              <div class="section9__block-info">
+                <h2 class="section9__title title line line_blue">Статьи о нас</h2>
+                <div class="section9__text text">Из этих публикаций вы можете узнать о нас больше.</div>
+              </div>
+            </div>
+            <div class="col-s-12 col-l-7 p-lr-15">
+              <div class="link-block">
+                <section class="link-block__section row"><a class="link-block__block color-white" href="">
+                    <div class="link-block__content">
+                      <div class="link-block__block-text">
+                        <div class="link-block__text text">Почему другие используют наложенный платеж, а вы — нет?</div>
+                        <div class="link-block__arrow">
+                          <svg width="32" height="22" viewbox="0 0 32 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M1 11H31M31 11L22 1M31 11L22 21" stroke="#FF6E4E" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+                          </svg>
+                        </div>
+                      </div>
+                    </div></a>
+                  <div class="section9__bg-img section9__bg-img_1">
+                    <svg class="icon square">
+                      <use xlink:href="img/svg/symbols.svg#square"></use>
+                    </svg>
+                  </div>
+                </section>
+                <section class="link-block__section row"><a class="link-block__block color-white" href="">
+                    <div class="link-block__content">
+                      <div class="link-block__block-text">
+                        <div class="link-block__text text">Отправлять товары наложенным платежом просто</div>
+                        <div class="link-block__arrow">
+                          <svg width="32" height="22" viewbox="0 0 32 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M1 11H31M31 11L22 1M31 11L22 21" stroke="#FF6E4E" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+                          </svg>
+                        </div>
+                      </div>
+                    </div></a>
+                  <div class="section9__bg-img section9__bg-img_2">
+                    <svg class="icon triangle">
+                      <use xlink:href="img/svg/symbols.svg#triangle"></use>
+                    </svg>
+                  </div>
+                </section>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="section10">
+        <div class="container">
+          <div class="section10__content">
+            <div class="section10__block block-br">
+              <h2 class="section10__title title">Сделайте свой бизнес надежнее с Dropex</h2>
+              <div class="section10__text text">Делегируйте рутинные задачи по доставке ваших товаров — и освободите время для планирования и развития!</div><a class="button button_red section10__button visible_button_js" href="">Подключить Dropex</a>
+              <div class="section10__bg-img section10__bg-img_1">
+                <svg class="icon square">
+                  <use xlink:href="img/svg/symbols.svg#square"></use>
+                </svg>
+              </div>
+              <div class="section10__bg-img section10__bg-img_2">
+                <svg class="icon triangle">
+                  <use xlink:href="img/svg/symbols.svg#triangle"></use>
+                </svg>
+              </div>
+              <div class="section10__bg-img section10__bg-img_3">
+                <svg class="icon square">
+                  <use xlink:href="img/svg/symbols.svg#square"></use>
+                </svg>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <footer class="footer">
+        <div class="container">
+          <div class="footer__content color-white">
+            <div class="logo footer__logo"><a class="logo__link" href="/"><img src="img/logo_footer.svg" alt="" width="206" height="50"/></a></div>
+            <div class="footer-sections">
+              <section class="footer-sections__section footer-sections__section_1">
+                <ul class="footer-list">
+                  <li><span>Address st. GESIA 8/205, Krakow, 31-535, Poland</span></li>
+                  <li><a href="mailto:account@dropex.net">E-mail: account@dropex.net</a></li>
+                  <li><a href="tel:+48572453766">Phone: +48572453766</a></li>
+                </ul>
+              </section>
+              <section class="footer-sections__section footer-sections__section_2">
+                <ul class="footer-list">
+                  <li><a href="tg://resolve?domain=Dropex_net">Telegram: @Dropex_net</a></li>
+                  <li><a href="https://wa.me/+48572453766">WhatsApp: +48572453766</a></li>
+                  <li><a href="skype:account@dropex.net">Skype: account@dropex.net</a></li>
+                </ul>
+                <div class="social"><a class="social__link" href="https://www.linkedin.com/company/72232903/" rel="nofollow" target="_blank">
+                    <svg class="icon in">
+                      <use xlink:href="img/svg/symbols.svg#in"></use>
+                    </svg></a><a class="social__link" href="https://www.facebook.com/Dropex-106581307925071" rel="nofollow" target="_blank">
+                    <svg class="icon fb">
+                      <use xlink:href="img/svg/symbols.svg#fb"></use>
+                    </svg></a><a class="social__link" href="https://twitter.com/Dropex_net" rel="nofollow" target="_blank">
+                    <svg class="icon twitter">
+                      <use xlink:href="img/svg/symbols.svg#twitter"></use>
+                    </svg></a><a class="social__link" href="https://vk.com/Dropex_net" rel="nofollow" target="_blank">
+                    <svg class="icon vk">
+                      <use xlink:href="img/svg/symbols.svg#vk"></use>
+                    </svg></a></div>
+              </section>
+              <section class="footer-sections__section footer-sections__section_3">
+                <ul class="footer-list">
+                  <li><a class="underline" href="" target="_blank">Website Terms of Use</a></li>
+                  <li><a class="underline" href="" target="_blank">Privacy Policy</a></li>
+                </ul>
+              </section>
+            </div>
+            <div class="right">Dropex © 2021. All rights reserved</div>
+            <div class="footer__bg-img footer__bg-img_1">
+              <svg class="icon square">
+                <use xlink:href="img/svg/symbols.svg#square"></use>
+              </svg>
+            </div>
+            <div class="footer__bg-img footer__bg-img_2">
+              <svg class="icon triangle">
+                <use xlink:href="img/svg/symbols.svg#triangle"></use>
+              </svg>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="js/lottie.min.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>
