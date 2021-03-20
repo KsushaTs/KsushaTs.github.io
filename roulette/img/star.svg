@@ -1,0 +1,38 @@
+<svg width="101" height="124" viewBox="0 0 101 124" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g style="mix-blend-mode:screen">
+<g filter="url(#filter0_f)">
+<circle cx="50.3532" cy="62.2319" r="9.64085" fill="#F5D919"/>
+</g>
+<g filter="url(#filter1_f)">
+<circle cx="50.353" cy="62.2319" r="18.3184" fill="#FAF5D3"/>
+</g>
+<g filter="url(#filter2_f)">
+<ellipse cx="50.3532" cy="62.2319" rx="57.702" ry="2.73625" transform="rotate(-90 50.3532 62.2319)" fill="#F5D919"/>
+</g>
+<g filter="url(#filter3_f)">
+<ellipse cx="50.3531" cy="62.2319" rx="46.3102" ry="2.50998" fill="#F5D919"/>
+</g>
+</g>
+<defs>
+<filter id="filter0_f" x="36.7124" y="48.5911" width="27.2817" height="27.2817" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+<feGaussianBlur stdDeviation="2" result="effect1_foregroundBlur"/>
+</filter>
+<filter id="filter1_f" x="12.0347" y="23.9136" width="76.6367" height="76.6367" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+<feGaussianBlur stdDeviation="10" result="effect1_foregroundBlur"/>
+</filter>
+<filter id="filter2_f" x="43.6169" y="0.529968" width="13.4725" height="123.404" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+<feGaussianBlur stdDeviation="2" result="effect1_foregroundBlur"/>
+</filter>
+<filter id="filter3_f" x="0.0429688" y="55.722" width="100.62" height="13.02" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+<feGaussianBlur stdDeviation="2" result="effect1_foregroundBlur"/>
+</filter>
+</defs>
+</svg>
