@@ -1,0 +1,859 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Dropex</title>
+
+  <link rel="shortcut icon" href="favicon.png" type="image/png">
+
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap"
+    rel="stylesheet">
+
+  <link rel="stylesheet" href="css/main.css">
+
+</head>
+
+<body>
+  <div id="loader" class="loader-container">
+    <div class="loader">
+    <div class="loader--dot"></div>
+    <div class="loader--dot"></div>
+    <div class="loader--dot"></div>
+    <div class="loader--dot"></div>
+    <div class="loader--dot"></div>
+    <div class="loader--dot"></div>
+    <div class="loader--text"></div>
+  </div>
+  </div>
+
+    <header id="navMobJs" class="header">
+      <div class="container">
+        <div class="header__content">
+  
+          <div class="logo header__logo">
+            <a class="logo__link" href="/">
+              <img src="img/logo.svg" alt="">
+            </a>
+          </div>
+  
+          <nav class="header__nav">
+            <ul id="menuJs" class="header__menu menu">
+              <li class="menu__item">
+                <a href="#services" class="menu__link link-hover linkJs active">Услуги</a>
+              </li>
+              <li class="menu__item">
+                <a href="#delivery" class="menu__link link-hover linkJs">Доставка</a>
+              </li>
+              <li class="menu__item">
+                <a href="#production" class="menu__link link-hover linkJs">Производство</a>
+              </li>
+              <li class="menu__item">
+                <a href="#contacts" class="menu__link link-hover linkJs">Контакты</a>
+              </li>
+              <!-- <li class="menu__item">
+                <a href="prices.html" class="menu__link link-hover linkJs">Тарифы</a>
+              </li> -->
+              <li class="menu__item">
+                <a href="faq.html" class="menu__link link-hover linkJs">FAQ</a>
+              </li>
+              <li class="menu__item drop-down header__drop-down">
+  
+                <a href="partnership.html" class="menu__link link-hover">Партнерство
+                  <span class="drop-down__arrow">
+                    <svg width="8" height="5" viewBox="0 0 8 5" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M1 1L4 4L7 1" stroke="#072C74" stroke-linecap="round" stroke-linejoin="round" />
+                    </svg>
+                  </span>
+                </a>
+  
+                <ul class="header__submenu menu__submenu drop-down__content">
+                  <li class="menu__item">
+                    <a class="menu__link link-hover linkJs" href="#partnership-delivery">Доставка</a>
+                  </li>
+                  <li class="menu__item">
+                    <a class="menu__link link-hover linkJs" href="#partnership-production">Производство</a>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+  
+  		  <a href="" class="header__button header__signup">
+  
+  			Зарегистрироваться
+  
+  		</a>
+  		<a href="" class="header__button header__login">
+  
+  		  Войти
+  
+  		</a>
+  
+  
+            <div class="header__lang lang">
+  
+              <ul class="lang__menu menu">
+                <li class="menu__item drop-down lang__drop-down">
+  
+                  <a href="#" class="menu__link link-hover lang-active">Ру
+                    <span class="drop-down__arrow">
+                      <svg width="8" height="5" viewBox="0 0 8 5" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M1 1L4 4L7 1" stroke="#072C74" stroke-linecap="round" stroke-linejoin="round" />
+                      </svg>
+                    </span>
+                  </a>
+  
+                  <ul class="lang__submenu menu__submenu drop-down__content">
+                    <li class="menu__item">
+                      <a class="menu__link link-hover" href="#">Es</a>
+                    </li>
+                    <li class="menu__item">
+                      <a class="menu__link link-hover" href="#">Hu</a>
+                    </li>
+                    <li class="menu__item">
+                      <a class="menu__link link-hover" href="#">Еn</a>
+                    </li>
+  
+                  </ul>
+                </li>
+              </ul>
+            </div>
+          </nav>
+  
+        </div>
+      </div>
+    </header>
+  
+    <div class="header-mob">
+      <div class="container">
+        <div class="header-mob__content">
+  
+          <div class="logo header-mob__logo">
+            <a class="logo__link" href="/">
+              <img src="img/logo.svg" alt="">
+            </a>
+          </div>
+  
+          <div class="header-mob__burger">
+            <div class="burger ">
+              <div class="burger__line burger__line_1"></div>
+              <div class="burger__line burger__line_2"></div>
+              <div class="burger__line burger__line_3"></div>
+              <div class="burger__line burger__line_4"></div>
+            </div>
+          </div>
+  
+  
+        </div>
+      </div>
+    </div>
+
+ <section id="faq" class="faq page visibleSection">
+ 	<div class="faq__bg">
+ 		<div class="faq__bg-line">
+ 			<img src="img/prices-bg.svg" alt="">
+ 			<img src="img/prices-bg.svg" alt="">
+ 			<img src="img/prices-bg.svg" alt="">
+ 			
+ 		</div>
+ 	</div>
+ 	<div class="container">
+ 		<div class="faq__content">
+ 			<div class="faq__title-block">
+ 				<h2 class=" faq__title">
+ 					FAQ
+ 				</h2>
+ 				<div class="faq__toggle">
+ 					<div class="faq__toggle-item faq__slideUp ">
+ 						Свернуть все
+ 					</div>
+ 					<div class="faq__toggle-item faq__slideDown active">
+ 						Развернуть все
+ 					</div>
+ 				</div>
+ 			</div>
+ 			<div class="faq__info-block">
+ 				<h3 class="faq__subtitle">
+ 					СИСТЕМА
+ 				</h3>
+ 				<ul class="faq__list faq-list">
+ 					<li class="faq-list__item">
+ 						<h4 class="faq-list__title">
+ 							Как много времени занимает интеграция?
+ 						</h4>
+ 						<div class="faq-list__text">
+ 							<p>
+ 								Интеграция занимает относительно немного времени и зависит от ключевых вопросов: какие
+ 								технические требования и возможности у вашей учетной системы, какая страна вас
+ 								интересует и т.д. В целом этот процесс занимает не более 3-5 рабочих дней.
+ 
+ 							</p>
+ 						</div>
+ 					</li>
+ 
+ 					<li class="faq-list__item">
+ 						<h4 class="faq-list__title">
+ 							Есть ли у вас API документация, которую я могу просмотреть?
+ 						</h4>
+ 						<div class="faq-list__text">
+ 							<p>
+ 								Для того, чтобы получить доступ к API документации, вам нужно зарегистрироваться на
+ 								сайте
+ 								<a href="https://app.dropex.net/">https://app.dropex.net/</a>
+ 
+ 							</p>
+ 							<p>
+ 								После этого вы сможете посмотреть API документацию по ссылке
+ 								<a href="https://app.dropex.net/en/package/documentation">https://app.dropex.net/en/package/documentation</a>
+ 
+ 							</p>
+ 						</div>
+ 					</li>
+ 
+ 					<li class="faq-list__item">
+ 						<h4 class="faq-list__title">
+ 							 Есть ли у вас демо-версия вашей CRM системы?
+ 
+ 						</h4>
+ 						<div class="faq-list__text">
+ 							<p>
+ 								Демо-версии нашей системы нет, но вы можете зарегистрироваться на сайте <a
+ 									href="https://app.dropex.net/">https://app.dropex.net/</a> и просмотреть, как все выглядит, а затем
+ 								обратиться к нашей команде <a href="https://dropex.net/#contacts">https://dropex.net/#contacts</a> за помощью в
+ 								дальнейшем использовании системы.
+ 
+ 							</p>
+ 
+ 						</div>
+ 					</li>
+ 
+ 					<li class="faq-list__item">
+ 						<h4 class="faq-list__title">
+ 							 Какие виды отчетностей я могу получить/скачать ?
+ 
+ 						</h4>
+ 						<div class="faq-list__text">
+ 							<p>
+ 								Вы можете просмотреть такую отчетность:
+ 
+ 							</p>
+ 							<ul>
+ 								<li>Отчет по актуальным статусам всех ваших заказов.</li>
+ 								<li>Отчет по товарообороту.</li>
+ 								<li>Финансовый оборот вашего виртуального баланса.</li>
+ 
+ 							</ul>
+ 						</div>
+ 					</li>
+ 
+ 					<li class="faq-list__item">
+ 						<h4 class="faq-list__title">
+ 							 Можете ли вы мне помочь с созданием сайта?
+ 
+ 						</h4>
+ 						<div class="faq-list__text">
+ 							<p>
+ 								Да, мы можем помочь вам с созданием сайта.
+ 							</p>
+ 						</div>
+ 					</li>
+ 
+ 					<li class="faq-list__item">
+ 						<h4 class="faq-list__title">
+ 							 Могу ли я отменить свой заказ?
+ 
+ 						</h4>
+ 						<div class="faq-list__text">
+ 							<p>
+ 								Да, мы можем отменить заказ по вашему запросу, если он получил трекер .
+ 
+ 							</p>
+ 						</div>
+ 					</li>
+ 					<li class="faq-list__item">
+ 						<h4 class="faq-list__title">
+ 							 Могут ли мои клиенты получать уведомления по электронной почте о ходе или статусе моей
+ 							отправки?
+ 						</h4>
+ 						<div class="faq-list__text">
+ 							<p>
+ 								Да, мы можем предоставить вам такой сервис.
+ 
+ 
+ 							</p>
+ 						</div>
+ 					</li>
+ 					<li class="faq-list__item">
+ 						<h4 class="faq-list__title">
+ 							 Как мне изменить адрес отправления?
+ 						</h4>
+ 						<div class="faq-list__text">
+ 							<p>
+ 								Если заказ получил трекер или уже отправлен, мы можем запросить у курьера переадресацию
+ 								или вернуть заказ и отправить новый на правильный адрес — по вашему запросу.
+ 							</p>
+ 						</div>
+ 					</li>
+ 					<li class="faq-list__item">
+ 						<h4 class="faq-list__title">
+ 							 Как мой клиент может отслеживать свой заказ?
+ 
+ 						</h4>
+ 						<div class="faq-list__text">
+ 							<p>
+ 								Это гибкий и полностью настраиваемый процесс. Наш API отслеживания позволяет вам
+ 								отображать эту информацию прямо на вашем сайте или давать клиентам возможность
+ 								отслеживать посылку самостоятельно — с помощью трек-номера. Также мы можем добавить в
+ 								смс или письмо ссылку с информацией об истории перевозок.
+ 							</p>
+ 						</div>
+ 					</li>
+ 					<li class="faq-list__item">
+ 						<h4 class="faq-list__title">
+ 							 Как скоро у моего клиента появится номер для отслеживания?
+ 
+ 						</h4>
+ 						<div class="faq-list__text">
+ 							<p>
+ 
+ 								Вы получаете трек-номер в вашу CRM систему сразу же в момент создания заказа. Также мы
+ 								можем предоставить сервис по отправке клиенту моментальных смс или писем с трек-номером
+ 								посылки.
+ 
+ 							</p>
+ 						</div>
+ 					</li>
+ 					<li class="faq-list__item">
+ 						<h4 class="faq-list__title">
+ 							 Что делать, если я обнаружил ошибку в счете-фактуре?
+ 
+ 						</h4>
+ 						<div class="faq-list__text">
+ 							<p>
+ 								Пожалуйста, сообщите нам немедленно — в зависимости от типа ошибки, мы постараемся
+ 								исправить ее как можно скорее.
+ 							</p>
+ 						</div>
+ 					</li>
+ 
+ 				</ul>
+ 				<h3 class="faq__subtitle">
+ 					СКЛАД
+ 				</h3>
+ 				<ul class="faq__list faq-list">
+ 					<li class="faq-list__item">
+ 						<h4 class="faq-list__title">
+ 							 Где находятся ваши склады
+ 
+ 						</h4>
+ 						<div class="faq-list__text">
+ 							<p>
+ 								Мы осуществляем доставку по всему миру, поэтому у нас много складов в разных странах.
+ 								Для более детальной информации обращайтесь к нашему менеджеру
+ 								<a href="https://dropex.net/#contacts">https://dropex.net/#contacts</a>.
+ 
+ 							</p>
+ 						</div>
+ 					</li>
+ 
+ 					<li class="faq-list__item">
+ 						<h4 class="faq-list__title">
+ 							 Есть ли у вас минимальные или максимальные требования к объему хранения товара на ваших
+ 							складах?
+ 						</h4>
+ 						<div class="faq-list__text">
+ 							<p>
+ 								Нет, наши клиенты могут хранить на складе любой объем товара
+ 							</p>
+ 
+ 						</div>
+ 					</li>
+ 
+ 					<li class="faq-list__item">
+ 						<h4 class="faq-list__title">
+ 							 Какой вид безопасности вы обеспечиваете на своем складе?
+ 
+ 						</h4>
+ 						<div class="faq-list__text">
+ 							<p>
+ 								На наших складах мы обеспечиваем достаточную систему безопасности, включая пропускную
+ 								систему доступа, камеры наблюдения, систему пожаротушения.
+ 							</p>
+ 
+ 						</div>
+ 					</li>
+ 
+ 					<li class="faq-list__item">
+ 						<h4 class="faq-list__title">
+ 							 Какие конверты и коробки у вас есть в наличии?
+ 						</h4>
+ 						<div class="faq-list__text">
+ 							<p>
+ 								У нас есть несколько видов и размеров упаковок, и мы подберем для вас самый оптимальный
+ 								вариант. Для более детальной информации обратитесь к нашему менеджеру
+ 								<a href="https://dropex.net/#contacts">https://dropex.net/#contacts</a>
+ 
+ 							</p>
+ 
+ 						</div>
+ 					</li>
+ 
+ 					<li class="faq-list__item">
+ 						<h4 class="faq-list__title">
+ 							Коробки содержат логотип Dropex Service?
+ 						</h4>
+ 						<div class="faq-list__text">
+ 							<p>
+ 								Нет. Наши коробки не содержат никаких логотипов, но если необходимо нанести ваш — мы
+ 								можем предоставить такой сервис.
+ 							</p>
+ 						</div>
+ 					</li>
+ 
+ 					<li class="faq-list__item">
+ 						<h4 class="faq-list__title">
+ 							 Могу ли я использовать свою упаковку (с моим логотипом)?
+ 						</h4>
+ 						<div class="faq-list__text">
+ 							<p>
+ 								Конечно, мы можем отправлять заказы в вашей упаковке.
+ 
+ 							</p>
+ 						</div>
+ 					</li>
+ 					<li class="faq-list__item">
+ 						<h4 class="faq-list__title">
+ 							 Как мне подготовить товары к отправке на ваш склад?
+ 
+ 						</h4>
+ 						<div class="faq-list__text">
+ 							<p>
+ 								Склад должен быть уведомлен о входящей поставке не менее чем за 48 часов, и вы должны
+ 								создать входящую доставку в своем личном кабинете. Пожалуйста, добавьте к поставке
+ 								упаковочный лист, указав, что находится в вашем отправлении — с артикулами товаров и их
+ 								количеством. Каждая страница должна иметь сканируемый штрих-код. Если ваш товар
+ 								прибывает на наш объект без надлежащего штрих-кода, мы можем маркировать его для вас.
+ 
+ 							</p>
+ 						</div>
+ 					</li>
+ 					<li class="faq-list__item">
+ 						<h4 class="faq-list__title">
+ 							 Могу ли я осуществить логистику между складами в разных странах?
+ 
+ 						</h4>
+ 						<div class="faq-list__text">
+ 							<p>
+ 								Да, мы организуем для вас транспортировку товара.
+ 							</p>
+ 						</div>
+ 					</li>
+ 					<li class="faq-list__item">
+ 						<h4 class="faq-list__title">
+ 							 Должен ли я забронировать временной интервал для входящих доставок?
+ 						</h4>
+ 						<div class="faq-list__text">
+ 							<p>
+ 								Нет, но склад должен быть уведомлен о входящей поставке не менее чем за 48 часов, и вы
+ 								должны создать входящую поставку в своем личном кабинете.
+ 							</p>
+ 						</div>
+ 					</li>
+ 					<li class="faq-list__item">
+ 						<h4 class="faq-list__title">
+ 							 Как я могу убедиться, что отправленный мной товар был получен правильно?
+ 						</h4>
+ 						<div class="faq-list__text">
+ 							<p>
+ 								Как только ваш товар поступает на склад, он проходит комплексный процесс приемки. Мы
+ 								проверяем информацию о товаре и сверяем с предоставленным упаковочным листом. О любых
+ 								несоответствиях незамедлительно узнает менеджер по работе с клиентами — и связывается с
+ 								вами напрямую. После приема поставки мы оформляем протокол.
+ 							</p>
+ 						</div>
+ 					</li>
+ 					<li class="faq-list__item">
+ 						<h4 class="faq-list__title">
+ 							 Что произойдет, если мой товар будет доставлен поврежденным?
+ 						</h4>
+ 						<div class="faq-list__text">
+ 							<p>
+ 								Если какой-либо из ваших товаров будет доставлен на склад поврежденным, мы проведем
+ 								фото-фиксацию всех внешних признаков повреждения, также зафиксируем это в
+ 								соответствующих документах.
+ 							</p>
+ 						</div>
+ 					</li>
+ 					<li class="faq-list__item">
+ 						<h4 class="faq-list__title">
+ 							 Что произойдет, если заказ необходимо вернуть из-за ошибки при комплектации или упаковке?
+ 						</h4>
+ 						<div class="faq-list__text">
+ 							<p>
+ 								Если это случится, мы немедленно отправим вашему покупателю новый заказ, согласовав с
+ 								вами его создание в системе. Также мы поработаем над выявлением причины ошибки, чтобы
+ 								предотвратить ее повторение в будущем.
+ 							</p>
+ 						</div>
+ 					</li>
+ 					<li class="faq-list__item">
+ 						<h4 class="faq-list__title">
+ 							 Требуется ли штрих-код для каждой единицы?
+ 						</h4>
+ 						<div class="faq-list__text">
+ 							<p>
+ 								Да, нам необходимы сканируемые штрих-коды на каждой единице товара. Если ваши товары
+ 								поступают на склад без штрих-кодов, мы можем наклеить их для вас за установленным
+ 								тарифом.
+ 							</p>
+ 						</div>
+ 					</li>
+ 					<li class="faq-list__item">
+ 						<h4 class="faq-list__title">
+ 							 Будете ли вы перемаркировать товар без штрих-кода или с испорченным штрих-кодом?
+ 						</h4>
+ 						<div class="faq-list__text">
+ 							<p>
+ 								Да, мы можем снабдить всю вашу продукцию наклейками и этикетками.
+ 							</p>
+ 						</div>
+ 					</li>
+ 					<li class="faq-list__item">
+ 						<h4 class="faq-list__title">
+ 							 Как вы ведете учет инвентаря?
+ 						</h4>
+ 						<div class="faq-list__text">
+ 							<p>
+ 								Каждая единица вашего товара получает индивидуальный складской номер (SKU) и при приемке
+ 								входящей поставки все продукты регистрируются в Dropex согласно присвоенным SKU. Все
+ 								движения по товару вносятся в систему.
+ 
+ 							</p>
+ 						</div>
+ 					</li>
+ 					<li class="faq-list__item">
+ 						<h4 class="faq-list__title">
+ 							 Вы проводите инвентаризацию всех товаров или же по определенному артикулу?
+ 						</h4>
+ 						<div class="faq-list__text">
+ 							<p>
+ 								Мы проводим инвентаризацию согласно вашему запросу, обращая внимание на условия
+ 								договора.
+ 							</p>
+ 						</div>
+ 					</li>
+ 					<li class="faq-list__item">
+ 						<h4 class="faq-list__title">
+ 							 Можете ли вы протестировать мои товары после их возврата?
+ 
+ 						</h4>
+ 						<div class="faq-list__text">
+ 							<p>
+ 								После возврата все товары проверяются на качество упаковки.
+ 							</p>
+ 						</div>
+ 					</li>
+ 
+ 				</ul>
+ 
+ 				<h3 class="faq__subtitle">
+ 					ДОСТАВКА
+ 				</h3>
+ 				<ul class="faq__list faq-list">
+ 					<li class="faq-list__item">
+ 						<h4 class="faq-list__title">
+ 							 Предоставляете ли вы сервис по международным отправкам из конкретной страны?  
+ 						</h4>
+ 						<div class="faq-list__text">
+ 							<p>
+ 								Да, свяжитесь с нашей командой для уточнения информации по международным отправкам из страны, которая вас интересует <a href="https://dropex.net/#contacts">https://dropex.net/#contacts</a>.
+ 
+ 							</p>
+ 						</div>
+ 					</li>
+ 					<li class="faq-list__item">
+ 						<h4 class="faq-list__title">
+ 							 Что произойдет, если мой заказ будет утерян или поврежден курьером? 
+ 						</h4>
+ 						<div class="faq-list__text">
+ 							<p>
+ 								Если заказ утерян или поврежден курьером, мы немедленно сообщим вам, а также свяжемся с курьером для написания заявления по возмещению средств.
+ 
+ 							</p>
+ 						</div>
+ 					</li>
+ 					<li class="faq-list__item">
+ 						<h4 class="faq-list__title">
+ 							 Через какое время после получения на склад мой заказ будет отправлен? 
+ 
+ 						</h4>
+ 						<div class="faq-list__text">
+ 							<p>
+ 								Складу необходимо время, чтобы обработать и собрать ваши заказы для передачи курьеру. Заказы, полученные до определенного времени (в зависимости от местоположения склада) будут обработаны и отправлены день в день. Более подробную информацию по отгрузкам можете уточнить у менеджера. <a href="https://dropex.net/#contacts">https://dropex.net/#contacts</a>.
+ 	
+ 
+ 							</p>
+ 						</div>
+ 					</li>
+ 
+ 				</ul>
+ 
+ 
+ 				<h3 class="faq__subtitle">
+ 					ФИНАНСОВЫЕ
+ 				</h3>
+ 				<ul class="faq__list faq-list">
+ 					<li class="faq-list__item">
+ 						<h4 class="faq-list__title">
+ 							  Какие способы оплаты вы принимаете?
+ 						</h4>
+ 						<div class="faq-list__text">
+ 							<p>
+ 								Прием платежа от покупателя курьеру происходит по COD модели (наложенный платеж).
+ 								Прием платежа от вас  — банковский перевод, Webmoney, Payoneer, Paxum.
+ 									
+ 
+ 							</p>
+ 						</div>
+ 					</li>
+ 					<li class="faq-list__item">
+ 						<h4 class="faq-list__title">
+ 							 Как осуществляется начисления денег на мой баланс в системе Dropex?
+ 						</h4>
+ 						<div class="faq-list__text">
+ 							<p>
+ 								Первые начисления проводятся на основании внесения депозита на банковский счет Dropex. Последующие начисления осуществляются на основании получения собранных наложенных платежей. Все начисления отображаются как пополнение баланса.
+ 	
+ 
+ 							</p>
+ 						</div>
+ 					</li>
+ 					<li class="faq-list__item">
+ 						<h4 class="faq-list__title">
+ 							 Как осуществляется списания денег с моего баланса в личном кабинете Dropex?
+ 
+ 						</h4>
+ 						<div class="faq-list__text">
+ 							<p>
+ 								Списание осуществляется в два этапа. Комиссии за базовые услуги снимаются сразу, по факту свершения самой услуги. Комиссии за дополнительные услуги рассчитываются и снимаются дважды в месяц.
+ 	
+ 
+ 							</p>
+ 						</div>
+ 					</li>
+ 					<li class="faq-list__item">
+ 						<h4 class="faq-list__title">
+ 							 Прилагаете ли вы инвойс к моим заказам? 
+ 
+ 						</h4>
+ 						<div class="faq-list__text">
+ 							<p>
+ 								Да, мы отправляем посылки с вашими инвойсами. 
+ 	
+ 							</p>
+ 						</div>
+ 					</li>
+ 					<li class="faq-list__item">
+ 						<h4 class="faq-list__title">
+ 							 Каким образом я оплачиваю услуги фулфилмента?
+ 
+ 						</h4>
+ 						<div class="faq-list__text">
+ 							<p>
+ 								Сумма вычисляется из суммы собранных COD, которые должны быть вам перечислены в установленном порядке. Вам не нужно производить банковский платеж по выставленному инвойсу. 	
+ 
+ 							</p>
+ 						</div>
+ 					</li>
+ 					<li class="faq-list__item">
+ 						<h4 class="faq-list__title">
+ 							 Снимаете ли вы дополнительную плату за коробки? 
+ 						</h4>
+ 						<div class="faq-list__text">
+ 							<p>
+ 								Если вы хотите отправлять заказы в наших коробках, с вас будет взиматься плата в размере стоимости коробки.
+ 	
+ 
+ 							</p>
+ 						</div>
+ 					</li>
+ 					<li class="faq-list__item">
+ 						<h4 class="faq-list__title">
+ 							 Может ли наше соглашение быть расторгнуто любой из сторон с уведомлением X-day?
+ 						</h4>
+ 						<div class="faq-list__text">
+ 							<p>
+ 								Соглашение может быть расторгнуто любой стороной, по причине или без нее — с письменным уведомлением за 60 дней. Также любая из сторон может немедленно расторгнуть соглашение после письменного уведомления, если другая сторона не устранила существенное нарушение соглашения в течение 15 дней.
+ 	
+ 
+ 							</p>
+ 						</div>
+ 					</li>
+ 
+ 				</ul>
+ 				<h3 class="faq__subtitle">
+ 					ОБЩЕЕ
+ 
+ 				</h3>
+ 				<ul class="faq__list faq-list">
+ 					<li class="faq-list__item">
+ 						<h4 class="faq-list__title">
+ 							 Какие дополнительные услуги вы предлагаете? 
+ 						</h4>
+ 						<div class="faq-list__text">
+ 							<ol>
+ 								<li> Инвентаризация по запросу клиента</li>
+ 								<li> Налоговый консалтинг/Помощь в получении VAT-номера</li>
+ 								<li> Легализация продукции/Оформление сертификата соответствия, происхождения, ISO и др.</li>
+ 								<li> Производство товаров под вашим брендом</li>
+ 								<li> SMS сопровождение/SMS уведомление о статусе заказа.</li>
+ 								<li> Создание сайта.</li>
+ 
+ 							</ol>
+ 						</div>
+ 					</li>
+ 					<li class="faq-list__item">
+ 						<h4 class="faq-list__title">
+ 							 Как вы справляетесь с сезонностью? 
+ 
+ 						</h4>
+ 						<div class="faq-list__text">
+ 							<p>
+ 								Мы вложили значительные средства в нашу систему и процессы, что позволяет масштабировать деятельность без снижения качества или эффективности.
+ 
+ 							</p>
+ 						</div>
+ 					</li>
+ 					<li class="faq-list__item">
+ 						<h4 class="faq-list__title">
+ 							 Как скоро я смогу запустить свой бизнес? 
+ 
+ 						</h4>
+ 						<div class="faq-list__text">
+ 							<p>
+ 								Наша компания поможет вам с нуля в каждом процессе — от получения качественной продукции, соответствующей всем местным и международным стандартам, до получения оплаты за доставленную посылку клиенту. Мы гарантируем вам запуск вашего проекта намного быстрее, чем вы бы сделали это самостоятельно или с помощью других ресурсов.
+ 
+ 							</p>
+ 						</div>
+ 					</li>
+ 
+ 				</ul>
+ 
+ 			</div>
+ 
+ 		</div>
+ 	</div>
+ 
+ </section>
+
+  <footer id="contacts" class="footer visibleSection">
+    <div class="footer__bg">
+      <div class="footer__bg-line">
+        <img src="img/footer-bg.svg" alt="">
+        <img src="img/footer-bg.svg" alt="">
+        <img src="img/footer-bg.svg" alt="">
+        <img src="img/footer-bg.svg" alt="">
+      </div>    
+    </div>
+    <div class="container">
+      <div class="footer__content">
+        
+        <div id="velik"  data-status="1" class="footer__img visibleAnim">
+         
+        </div>
+      
+        <div class="logo footer__logo">
+          <a class="logo__link" href="/">
+            <img src="img/logo.svg" alt="">
+          </a>
+        </div>
+  
+        <ul class="footer__list">
+          <li><a href="">Условия сотрудничества</a></li>
+          <li><a href="">Условия использования сайта</a></li>
+          <li><a href="">Политика конфиденциальности</a></li>
+  	  </ul>
+  	  
+  	  <ul class="footer__list-soc">
+          <li>Telegram: 
+  			<a href="tg://resolve?domain=Dropex_net">@Dropex_net</a>
+  		</li>
+          <li>E-mail:
+  			<a href="mailto:account@dropex.net">account@dropex.net</a>
+  		</li>
+  		<li>Skype:
+  			<a href="skype:account@dropex.net">account@dropex.net</a>
+  		</li>
+  		<li>Phone:
+  			<a href="tel:+48572453766">+48572453766</a>
+  		</li>
+  	  </ul>
+  	  
+  	  <!-- footer__form-block -->
+        <div class="footer__form-block">
+  
+  		<div class="footer__info-text">
+  			Оставьте свои контакты и мы свяжемся с вами
+  		</div>
+  
+          <form class="footer__form form" action="">
+            <div class="footer__input-group">
+              <div class="form__input-block footer__input-block">
+  				<div class="placeholder-container">
+  				  <input class="form__input" type="text" placeholder="">
+  				  <span class="placeholder">
+  					Имя 
+  					<span class="form__star">*</span>
+  				  </span>
+  				</div>
+  			  </div>
+  			  <div class="form__input-block footer__input-block">
+  				<div class="placeholder-container">
+  				  <input class="form__input" type="text" placeholder="">
+  				  <span class="placeholder">
+  					Телефон 
+  					<span class="form__star">*</span>
+  				  </span>
+  				</div>
+  			  </div>
+  			  <div class="form__input-block footer__input-block">
+  				<div class="placeholder-container">
+  				  <input class="form__input" type="text" placeholder="">
+  				  <span class="placeholder">
+  					Email 
+  					<span class="form__star">*</span>
+  				  </span>
+  				</div>
+  			  </div>
+  		  </div>
+  		  
+  		  <button class="form__button button" type="submit">
+  			Отправить
+            </button>
+  
+          </form>
+  	  </div> 
+  	   <!-- footer__form-block -->
+  
+        <!-- <div class="footer__text">
+          Подпишитесь на рассылку, чтобы получить новые возможности
+        </div> -->
+  
+        <div class="copyright">
+          Dropex © 2020. Все права защищены
+        </div>
+  
+  
+      </div>
+    </div>
+  </footer>
+  
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/lottie-web/5.6.10/lottie.min.js"></script>
+  <script src="js/main.js"></script>
+
+</body>
+
+</html>
