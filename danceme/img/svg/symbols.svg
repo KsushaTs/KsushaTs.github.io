@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="0" height="0" style="position:absolute">
+	
+		<symbol id="arrow" viewBox="0 0 13 7">
+			<path d="M1 1l5.416 5.232L11.829 1" stroke="#2A2A2A" stroke-linecap="square"></path>
+		</symbol>
+	
+		<symbol id="seach" viewBox="0 0 20 20">
+			<path d="M9 1a8 8 0 0 1 5.792 13.518l4.036 4.103-.707.707-4.063-4.13A8 8 0 1 1 9 1zm0 1a7 7 0 1 0 0 14A7 7 0 0 0 9 2z" fill="#2A2A2A" stroke="#2A2A2A" stroke-width=".5"></path>
+		</symbol>
+	
+		<symbol id="user" viewBox="0 0 16 19">
+			<path d="M1 18.443a7.001 7.001 0 0 1 14 0M12.014 4.769a3.77 3.77 0 1 1-7.54 0 3.77 3.77 0 0 1 7.54 0z" stroke="#2A2A2A" stroke-width="1.5" fill="rgba(0,0,0,0)"></path>
+		</symbol>
+	
+</svg>
